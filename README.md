@@ -64,8 +64,8 @@ Los usuarios pueden **filtrar, buscar, girar cartas en 3D** y visualizar sus sig
 
 1. Clona el repositorio:  
    ```bash
-   git clone https://github.com/tuusuario/oraculo-cartas.git
-   cd oraculo-cartas
+   git clone https://github.com/yamiddevofic/cards-oracle.git
+   cd cards-oracle
    ```
 
 2. Instala dependencias:  
