@@ -1,0 +1,782 @@
+[
+  {
+    "numero": 1,
+    "titulo": "El Mago",
+    "palabras_clave": "Seguro · Creativo · Comunicaciones importantes · Hábil · Talentoso y competente",
+    "descripcion": "El Mago representa la autoconfianza y determinación para transformar ideas en acciones, enfocándose en lo pragmático y físico. Tu éxito dependerá de tu fuerza de voluntad.",
+    "invertida": {
+      "palabras_clave": "Manipulación · Engaño · Falta de recursos",
+      "significado": "En posición invertida, El Mago sugiere manipulación, engaño o falta de recursos, instando a la integridad y a evaluar la ética de tus métodos."
+    }
+  },
+  {
+    "numero": 2,
+    "titulo": "La Sacerdotisa",
+    "palabras_clave": "Influencias femeninas · Profundo · Misterio · Entendimiento · Sabiduría",
+    "descripcion": "Simboliza una fuerte intuición y buen juicio, priorizando el instinto sobre la razón. También puede advertir sobre hechos ocultos importantes.",
+    "invertida": {
+      "palabras_clave": "Secretos · Represión emocional · Confusión",
+      "significado": "Señala secretos, represión emocional o confusión, un llamado a escuchar tu voz interior y buscar claridad interna."
+    }
+  },
+  {
+    "numero": 3,
+    "titulo": "La Emperatriz",
+    "palabras_clave": "Creatividad abundante · Fertilidad · Realización · Figura materna · Productividad",
+    "descripcion": "Asocia con la influencia maternal, creatividad abundante y fertilidad, augurando armonía familiar, éxito artístico y posibles embarazos.",
+    "invertida": {
+      "palabras_clave": "Bloqueo creativo · Dependencia · Problemas familiares",
+      "significado": "Indica bloqueos creativos, dependencia o problemas familiares, invitando a nutrir la creatividad y buscar independencia emocional."
+    }
+  },
+  {
+    "numero": 4,
+    "titulo": "El Emperador",
+    "palabras_clave": "Autoridad · Figura paterna · Influencia masculina · Racional · Estable",
+    "descripcion": "Simboliza una influencia masculina poderosa, liderazgo, autodisciplina y estabilidad, presagiando promociones o la necesidad de asumir mayores responsabilidades.",
+    "invertida": {
+      "palabras_clave": "Rigidez · Abuso de poder · Control excesivo",
+      "significado": "Advierte sobre rigidez, abuso de poder o control excesivo, recordándote ejercer el poder con sabiduría y flexibilidad."
+    }
+  },
+  {
+    "numero": 5,
+    "titulo": "El Hierofante",
+    "palabras_clave": "Aprobación · Conformidad · Consentimiento · Buen consejo · Matrimonio o Unión",
+    "descripcion": "Representa la doctrina, ya sea como enseñanza y guía o como autoridad rígida, indicando tu perspectiva sobre las convenciones morales, religiosas y sociales.",
+    "invertida": {
+      "palabras_clave": "Dogmatismo · Rebeldía · Falsos gurús",
+      "significado": "Sugiere dogmatismo, rebeldía o la influencia de falsos gurús, un llamado a discernir la verdad y seguir tu sabiduría interna."
+    }
+  },
+  {
+    "numero": 6,
+    "titulo": "Los Amantes",
+    "palabras_clave": "Apego o combinación · Decisiones conflictivas · Parejas · Relaciones · Unión",
+    "descripcion": "Aunque se asocia con el amor, también indica decisiones difíciles y mutuamente excluyentes en tu vida, pero asegura que una de ellas te llevará al lugar correcto.",
+    "invertida": {
+      "palabras_clave": "Infidelidad · Dilemas · Falta de comunicación",
+      "significado": "Puede señalar infidelidad, dilemas difíciles o falta de comunicación, recordándote ser honesto y buscar claridad en tus decisiones."
+    }
+  },
+  {
+    "numero": 7,
+    "titulo": "El Carro",
+    "palabras_clave": "Viaje · Progresión · Carácter fuerte · Éxito derivado del esfuerzo · Transporte y movimiento",
+    "descripcion": "Anuncia un trabajo arduo y difícil, con desafíos, pero que te inspirará propósito, resistencia y confianza para triunfar.",
+    "invertida": {
+      "palabras_clave": "Falta de dirección · Caos · Agresividad",
+      "significado": "Sugiere falta de dirección, caos o agresividad, llamando a recuperar el control, encontrar un camino claro y canalizar la energía de forma constructiva."
+    }
+  },
+  {
+    "numero": 8,
+    "titulo": "Fuerza",
+    "palabras_clave": "Energía · Enfrentando problemas · Fuerza · Vitalidad · Fuerza de Voluntad",
+    "descripcion": "Representa la fuerza interior, vitalidad y voluntad para enfrentar problemas y superar enfermedades, pero también la responsabilidad de autocontrol.",
+    "invertida": {
+      "palabras_clave": "Miedo · Inseguridad · Falta de control",
+      "significado": "Indica miedo, inseguridad o falta de control, un recordatorio para encontrar tu fuerza interior y enfrentar desafíos con coraje y autodisciplina."
+    }
+  },
+  {
+    "numero": 9,
+    "titulo": "El Ermitaño",
+    "palabras_clave": "Desapego · Dirección · Soledad · Examen de conciencia e introspección · Pensamiento y reflexión",
+    "descripcion": "Sugiere la necesidad de un periodo de reflexión interior y examen de conciencia, lejos de las demandas externas, para encontrar soluciones a través de la introspección.",
+    "invertida": {
+      "palabras_clave": "Aislamiento · Estancamiento · Miedo a la verdad",
+      "significado": "Puede señalar aislamiento excesivo, estancamiento o miedo a la verdad, un llamado a buscar el equilibrio entre la soledad y la conexión."
+    }
+  },
+  {
+    "numero": 10,
+    "titulo": "La Rueda de la Fortuna",
+    "palabras_clave": "Cambio · Destino · Buena suerte · Los ciclos de la vida · Nueva dirección",
+    "descripcion": "Simboliza los ciclos de la vida y nuevos inicios, probablemente positivos, pero regidos por la suerte y fuera de tu control; enfócate en lo que sí puedes controlar.",
+    "invertida": {
+      "palabras_clave": "Bloqueos · Mala suerte · Resistencia al cambio",
+      "significado": "Puede indicar bloqueos, mala suerte o resistencia al cambio, recordándote aceptar los ciclos de la vida y buscar adaptabilidad."
+    }
+  },
+  {
+    "numero": 11,
+    "titulo": "Justicia",
+    "palabras_clave": "Equilibrio · Igualdad · Imparcialidad · Justicia · Cuestiones legales",
+    "descripcion": "Augura una resolución positiva si has actuado con equidad, pero advierte un castigo o la necesidad de cambio si has sido injusto; en casos neutros, busca equilibrio.",
+    "invertida": {
+      "palabras_clave": "Injusticia · Desequilibrio · Parcialidad · Prejuicio · Falta de responsabilidad",
+      "significado": "Puede señalar injusticia, desequilibrio o parcialidad, un llamado a examinar tus acciones, buscar la verdad y luchar por la equidad."
+    }
+  },
+  {
+    "numero": 12,
+    "titulo": "El Colgado",
+    "palabras_clave": "Un periodo de transición · Ganando por un sacrificio · Suspendiendo · Restringiendo · Descontinuado",
+    "descripcion": "Se interpreta como un cambio inevitable en tu futuro que requerirá sacrificio, o un periodo de suspensión y restricción para una decisión importante.",
+    "invertida": {
+      "palabras_clave": "Estancamiento · Resistencia al cambio · Martirio",
+      "significado": "Indica estancamiento, resistencia al cambio o martirio, un recordatorio para estar abierto a nuevas perspectivas y a la transformación."
+    }
+  },
+  {
+    "numero": 13,
+    "titulo": "Muerte",
+    "palabras_clave": "Fin · Nuevo comienzo · Pérdida · Cambio dramático · Destrucción",
+    "descripcion": "Indica cambios permanentes y significativos en tu futuro, probablemente dolorosos, pero necesarios para el avance y la aceptación.",
+    "invertida": {
+      "palabras_clave": "Inercia · Esperanza perdida",
+      "significado": "Puede significar inercia o esperanza perdida, un llamado a aceptar los finales y buscar nuevas oportunidades."
+    }
+  },
+  {
+    "numero": 14,
+    "titulo": "Templanza",
+    "palabras_clave": "Capaz · Control · Armonía y equilibrio · Moderación (drogas / alcohol) · Autoconfianza",
+    "descripcion": "Una carta optimista que te anima a encontrar equilibrio y calma en tu vida, confiando en que las buenas decisiones llevarán a resultados positivos.",
+    "invertida": {
+      "palabras_clave": "Ansiedad · Impaciencia · Impulsividad · Desequilibrio",
+      "significado": "Puede indicar ansiedad, impaciencia, impulsividad o desequilibrio, un recordatorio para buscar moderación y calma."
+    }
+  },
+  {
+    "numero": 15,
+    "titulo": "El Diablo",
+    "palabras_clave": "Ira · Celos y resentimiento · Autoengaño · Egoísmo · Violencia",
+    "descripcion": "Advierte sobre una trampa o situación de la que no hay escape, señalando la necesidad de prudencia y de identificar cómo evitarla.",
+    "invertida": {
+      "palabras_clave": "Liberación",
+      "significado": "Sugiere liberación de cadenas, adicciones o influencias negativas, un momento de empoderamiento y autonomía."
+    }
+  },
+  {
+    "numero": 16,
+    "titulo": "La Torre",
+    "palabras_clave": "Destrucción · Cambio dramático · Pérdida y ruina · Nuevo comienzo · Eventos inesperados",
+    "descripcion": "Encarna la complicación y el conflicto, con cambios bruscos y desagradables causados por eventos imprevistos, exigiendo que los enfrentes con gracia.",
+    "invertida": {
+      "palabras_clave": "Autocompasión",
+      "significado": "Puede indicar autocompasión o resistencia a un cambio necesario, un llamado a enfrentar la realidad y aceptar la transformación."
+    }
+  },
+  {
+    "numero": 17,
+    "titulo": "La Estrella",
+    "palabras_clave": "Calma y serenidad · Destino · Esperanza · Oportunidad · Renovación",
+    "descripcion": "Significa un periodo de descanso, renovación espiritual o física, y recuperación de enfermedades, iluminando tu futuro y pasado con esperanza.",
+    "invertida": {
+      "palabras_clave": "Pesimismo · Dudas · Inseguridad · Baja autoestima",
+      "significado": "Puede señalar pesimismo, dudas, inseguridad o baja autoestima, un recordatorio para reavivar la fe y buscar inspiración interna."
+    }
+  },
+  {
+    "numero": 18,
+    "titulo": "La Luna",
+    "palabras_clave": "Sé cuidadoso · Cautela · Confusión · Delirio · Riesgo",
+    "descripcion": "Advierte que algo en tu vida no es lo que parece, sugiriendo verdades ocultas o la necesidad de apoyarse en la intuición para ver a través del subterfugio.",
+    "invertida": {
+      "palabras_clave": "Se cae la venda de los ojos",
+      "significado": "Indica que se caen las vendas de los ojos, revelando verdades y disipando la confusión, un momento para confiar en tu intuición."
+    }
+  },
+  {
+    "numero": 19,
+    "titulo": "El Sol",
+    "palabras_clave": "Abundancia · Logro · Alegría · Productividad · Éxito",
+    "descripcion": "Representa un desarrollo positivo, abundancia, logro, alegría y productividad, con metas personales al alcance si te esfuerzas por ellas.",
+    "invertida": {
+      "palabras_clave": "Retrasos · Falta de confianza",
+      "significado": "Puede señalar retrasos o falta de confianza, un recordatorio para mantener la positividad y confiar en que la alegría y el éxito regresarán."
+    }
+  },
+  {
+    "numero": 20,
+    "titulo": "Juicio",
+    "palabras_clave": "Cambio · Decisiones · Éxito · Transformación · Agitación",
+    "descripcion": "Habla de una transición y cambios razonados que rendirán frutos, aconsejando tomar decisiones con la mente sobre la intuición para dar forma al próximo capítulo de tu vida.",
+    "invertida": {
+      "palabras_clave": "Vacilación espiritual · Debilidad · Juicio o decisión equivocada",
+      "significado": "Puede indicar vacilación espiritual, debilidad o un juicio equivocado, un llamado a la auto-reflexión y a tomar decisiones con valentía y sabiduría."
+    }
+  },
+  {
+    "numero": 21,
+    "titulo": "El Mundo",
+    "palabras_clave": "Certeza · Terminación · Positivo · Recompensa · Satisfacción",
+    "descripcion": "Un indicador de cambio importante y inexorable, ofreciendo la oportunidad de terminar con lo viejo e iniciar lo nuevo, con crecimiento, equilibrio y un futuro con viajes.",
+    "invertida": {
+      "palabras_clave": "Obstáculos · Estancamiento · Estorbos",
+      "significado": "Puede señalar obstáculos, estancamiento o estorbos, un recordatorio para perseverar y buscar nuevas formas de superar los desafíos."
+    }
+  },
+  {
+    "numero": 22,
+    "titulo": "El Loco",
+    "palabras_clave": "Despreocupado · Tonto · Decisiones importantes · Nuevos comienzos · Optimista",
+    "descripcion": "Representa un nuevo comienzo y el fin de algo anterior, anunciando decisiones importantes que pueden ser arriesgadas; acércate con optimismo y cuidado.",
+    "invertida": {
+      "palabras_clave": "Imprudencia · Falta de dirección · Impulsividad",
+      "significado": "Advierte sobre imprudencia, falta de dirección o impulsividad, un llamado a la cautela y la reflexión antes de nuevos caminos."
+    }
+  },
+  {
+    "numero": 23,
+    "titulo": "As de Oros",
+    "palabras_clave": "Abundancia · Creatividad · Relación intensa · Satisfacción · Éxito",
+    "descripcion": "Sugiere un nuevo comienzo muy positivo en tu vida, con un periodo productivo donde tu trabajo será recompensado, y relaciones estables.",
+    "invertida": {
+      "palabras_clave": "Oportunidades perdidas · Mala inversión · Inestabilidad financiera · Negligencia · Avaricia",
+      "significado": "Puede indicar oportunidades perdidas, malas inversiones o inestabilidad financiera, un aviso para ser más cauteloso con tus recursos."
+    }
+  },
+  {
+    "numero": 24,
+    "titulo": "Dos de Oros",
+    "palabras_clave": "Equilibrio · Riqueza Fluctuante · Malabarismo · Prudencia · Transferencia o Intercambio",
+    "descripcion": "Ligado a las fuerzas del cambio y el equilibrio, indica que el status quo será interrumpido por desafíos que podrás superar con prudencia y planificación.",
+    "invertida": {
+      "palabras_clave": "Desequilibrio · Desorganización · Mala gestión financiera · Indecisión · Caos",
+      "significado": "Puede señalar desequilibrio, desorganización o mala gestión financiera, un llamado a simplificar y priorizar para recuperar el equilibrio."
+    }
+  },
+  {
+    "numero": 25,
+    "titulo": "Tres de Oros",
+    "palabras_clave": "Excelencia · Maestría · Satisfacción · Éxito · Trabajo en Equipo",
+    "descripcion": "Si mantienes tu propósito, verás tus esfuerzos reconocidos, apoyándote en los demás para un resultado que traerá recompensas materiales y satisfacción duradera.",
+    "invertida": {
+      "palabras_clave": "Falta de trabajo en equipo · Incompetencia · Falta de reconocimiento · Proyectos sin terminar · Mala calidad",
+      "significado": "Puede señalar falta de trabajo en equipo, incompetencia o falta de reconocimiento, un llamado a mejorar habilidades y colaborar eficazmente."
+    }
+  },
+  {
+    "numero": 26,
+    "titulo": "Cuatro de Oros",
+    "palabras_clave": "Certeza · Posesivo · Confiable · Seguridad · Tenacidad",
+    "descripcion": "Estás en camino a la seguridad financiera y material, un capítulo placentero donde tus necesidades emocionales y espirituales estarán satisfechas.",
+    "invertida": {
+      "palabras_clave": "Avaricia · Obsesión material · Inseguridad financiera · Resistencia al cambio · Desperdicio",
+      "significado": "Puede indicar avaricia, obsesión materialista o inseguridad financiera, un llamado a reevaluar tu relación con el dinero y las posesiones."
+    }
+  },
+  {
+    "numero": 27,
+    "titulo": "Cinco de Oros",
+    "palabras_clave": "Problemas Emocionales o Financieros · Ineptitud · Pobreza · Escasez · Preocupación",
+    "descripcion": "Un indicador negativo para finanzas, empleo o relaciones, sugiriendo duplicidad, pérdida de trabajos o infidelidad; evalúa prioridades para mitigar el daño.",
+    "invertida": {
+      "palabras_clave": "Recuperación · Superación de la adversidad · Nueva oportunidad · Ayuda recibida · Esperanza",
+      "significado": "Sugiere recuperación, superación de la adversidad o nuevas oportunidades, un signo de esperanza y de encontrar soluciones."
+    }
+  },
+  {
+    "numero": 28,
+    "titulo": "Seis de Oros",
+    "palabras_clave": "Distribución · Donación · Favor · Prosperidad · Solvencia",
+    "descripcion": "Tu éxito está ligado a la generosidad, ya sea por tu inversión en otros o por la generosidad de alguien más, indicando una inclinación natural a la beneficencia.",
+    "invertida": {
+      "palabras_clave": "Deuda · Desequilibrio · Egoísmo · Avaricia · Injusticia",
+      "significado": "Puede indicar deuda, desequilibrio o egoísmo, un llamado a buscar el equilibrio entre dar y recibir y ser más justo."
+    }
+  },
+  {
+    "numero": 29,
+    "titulo": "Siete de Oros",
+    "palabras_clave": "Negocios y Comercio · Éxito a Largo Plazo · Ocupación · Perseverancia · Riqueza",
+    "descripcion": "Evitarás el fracaso pero te faltará mucho éxito o el tiempo esperado; enfrentarás reveses y necesitarás evitar la vacilación para progresar, aunque sea lento.",
+    "invertida": {
+      "palabras_clave": "Inmadurez · Noticias decepcionantes · Creatividad bloqueada · Timidez · Engaño",
+      "significado": "Puede indicar inmadurez en proyectos, noticias decepcionantes o creatividad bloqueada, un recordatorio para ser paciente y no desanimarte."
+    }
+  },
+  {
+    "numero": 30,
+    "titulo": "Ocho de Oros",
+    "palabras_clave": "Aprendiz · Carrera · Destreza · Nuevas habilidades · Prudencia",
+    "descripcion": "Muy positiva para trabajos creativos o manuales, especialmente si estás perfeccionando habilidades; augura recompensas espirituales y éxito si eres prudente y organizado.",
+    "invertida": {
+      "palabras_clave": "Desorden · Desinterés · Pereza · Falta de ambición · Trabajos sin terminar",
+      "significado": "Puede indicar desorden, desinterés, pereza o falta de ambición, un llamado a la disciplina y a reencontrar la motivación."
+    }
+  },
+  {
+    "numero": 31,
+    "titulo": "Nueve de Oros",
+    "palabras_clave": "Abundancia · Seguridad financiera · Opulencia · Próspero · Riqueza",
+    "descripcion": "Representa una recompensa financiera importante fruto del trabajo duro y la planificación, marcando el fin de dificultades y el inicio de una vida placentera.",
+    "invertida": {
+      "palabras_clave": "Falta de disciplina · Gastos excesivos · Fracaso financiero · Robos · Soledad",
+      "significado": "Puede advertir sobre falta de disciplina financiera, gastos excesivos o robo, un llamado a la prudencia y a reevaluar prioridades."
+    }
+  },
+  {
+    "numero": 32,
+    "titulo": "Diez de Oros",
+    "palabras_clave": "Relaciones cercanas · Familia · Fortuna · Herencia · Próspero",
+    "descripcion": "Indica positivamente tu seguridad financiera y bienestar emocional, ligados a tus relaciones cercanas con amigos y familiares, y puede presagiar una herencia.",
+    "invertida": {
+      "palabras_clave": "Problemas familiares · Disputas por herencia · Inseguridad financiera · Pérdida de raíces · Desintegración",
+      "significado": "Puede señalar problemas familiares, disputas por herencias o inseguridad financiera, un momento para la reconciliación y fortalecer cimientos."
+    }
+  },
+  {
+    "numero": 33,
+    "titulo": "Sota de Oros",
+    "palabras_clave": "Atento · Motivado · Beca · Hábil · Estudioso",
+    "descripcion": "Una carta intelectual que presagia buenas noticias en los ámbitos académicos y económicos para ti y tus seres queridos, basada en la introspección y la conciencia.",
+    "invertida": {
+      "palabras_clave": "Despilfarro · Noticias decepcionantes · Descuido · Falta de ambición · Rebeldía",
+      "significado": "Puede indicar despilfarro, noticias decepcionantes o descuido, un recordatorio para ser más atento y diligente."
+    }
+  },
+  {
+    "numero": 34,
+    "titulo": "Caballero de Oros",
+    "palabras_clave": "Ambicioso · Confiable · Leal · Honorable · Meticuloso",
+    "descripcion": "Simboliza paciencia, honor y fiabilidad, sugiriendo que posees estos rasgos o que un joven portador de buenas noticias entrará en tu vida.",
+    "invertida": {
+      "palabras_clave": "Pereza · Rutina · Estancamiento · Irresponsabilidad · Falta de ambición",
+      "significado": "Puede indicar pereza, rutina, estancamiento o irresponsabilidad, un llamado a la acción y a encontrar ambición."
+    }
+  },
+  {
+    "numero": 35,
+    "titulo": "Reina de Oros",
+    "palabras_clave": "Abundancia · Ayuda financiera · Sentido práctico · Prosperidad · Riqueza",
+    "descripcion": "Refleja una persona, usualmente mujer, hábil financieramente, pragmática y práctica, que te ayudará con asuntos monetarios, ofreciendo consejos.",
+    "invertida": {
+      "palabras_clave": "Descuido · Posesividad · Materialismo · Inseguridad · Desorden",
+      "significado": "Puede indicar descuido, posesividad, materialismo o inseguridad, un recordatorio para encontrar el equilibrio y la generosidad."
+    }
+  },
+  {
+    "numero": 36,
+    "titulo": "Rey de Oros",
+    "palabras_clave": "Seguro · Fiable · Seguridad · Éxito · Riqueza",
+    "descripcion": "Encarna los aspectos maduros y confiables de la madurez, ligado al éxito y status, representando a alguien que te ayudará o un evento como dinero inesperado o un ascenso.",
+    "invertida": {
+      "palabras_clave": "Corrupción · Codicia · Desconfianza · Abuso de poder",
+      "significado": "Puede indicar corrupción, codicia, desconfianza o abuso de poder, un llamado a la integridad y al uso ético de tus recursos."
+    }
+  },
+  {
+    "numero": 37,
+    "titulo": "As de Copas",
+    "palabras_clave": "Abundancia · Creatividad · Relación intensa · Satisfacción · Éxito",
+    "descripcion": "Significa el comienzo de un periodo de fuerte salud emocional, con mucha alegría, felicidad y amor, fortaleciendo relaciones existentes y creando nuevas.",
+    "invertida": {
+      "palabras_clave": "Corazón falso · Mutación · Inestabilidad · Revolución",
+      "significado": "Sugiere un corazón falso, mutación, inestabilidad o revolución, un llamado a la honestidad emocional y a buscar estabilidad en tus sentimientos."
+    }
+  },
+  {
+    "numero": 38,
+    "titulo": "Dos de Copas",
+    "palabras_clave": "Compromiso · Amistad · Amor · Asociación · Relación",
+    "descripcion": "El tema resonante es la asociación, indicando una relación poderosa de confianza absoluta y respeto, ya sea amorosa o de amistad, que será una fuente de felicidad.",
+    "invertida": {
+      "palabras_clave": "Amor falso · Locura · Incomprensión",
+      "significado": "Puede señalar amor falso, locura o incomprensión, un recordatorio para buscar la honestidad y la claridad en tus lazos afectivos."
+    }
+  },
+  {
+    "numero": 39,
+    "titulo": "Tres de Copas",
+    "palabras_clave": "Abundancia · Celebración · Creatividad · Entretenimiento · Reunión",
+    "descripcion": "Un signo de celebración y gran felicidad duradera, compartida con los que te rodean, comúnmente asociada con la realización de un proyecto o un nacimiento.",
+    "invertida": {
+      "palabras_clave": "Expedición · Envío · Logro · Fin",
+      "significado": "Puede sugerir expedición, envío, logro o fin de un ciclo, un momento para celebrar éxitos y prepararse para nuevas aventuras."
+    }
+  },
+  {
+    "numero": 40,
+    "titulo": "Cuatro de Copas",
+    "palabras_clave": "Aburrimiento · Decepción · Insatisfacción · Revaluación · Tedioso",
+    "descripcion": "Una fuerte advertencia de que debes romper con los ciclos de apatía, buscando nuevas causas, metas y caminos, tomando riesgos para evitar el costo de no buscar el éxito.",
+    "invertida": {
+      "palabras_clave": "Novedad · Presagio · Nuevas instrucciones · Nuevas relaciones",
+      "significado": "Sugiere novedad, presagio, nuevas instrucciones o relaciones, un momento para estar atento a las señales y cambios en tu vida."
+    }
+  },
+  {
+    "numero": 41,
+    "titulo": "Cinco de Copas",
+    "palabras_clave": "Evasión · Indiferencia · Pérdida · Nueva esperanza · Arrepentimiento",
+    "descripcion": "De mal augurio, relacionada con tus emociones, trae advertencia de pérdida y decepción emocional, o arrepentimientos pasados; la solución es el optimismo.",
+    "invertida": {
+      "palabras_clave": "Noticias · Alianzas · Afinidad · Ascendencia · Retorno · Falsos proyectos",
+      "significado": "Puede indicar noticias, alianzas, afinidad, ascendencia, retorno o falsos proyectos, un momento para discernir intenciones y confiar en tu intuición."
+    }
+  },
+  {
+    "numero": 42,
+    "titulo": "Seis de Copas",
+    "palabras_clave": "Disculpa · Asociaciones pasadas · Reconciliación · Reminiscente · Retorno",
+    "descripcion": "Con raíces en el pasado y ligada a tu felicidad, sugiere que tu familia y viejos amigos están en proceso de aumentar tus alegrías, y que esfuerzos pasados te recompensan emocionalmente.",
+    "invertida": {
+      "palabras_clave": "Renovación · Futuro · Lo que sucederá en el presente",
+      "significado": "Sugiere renovación, futuro y lo que sucederá en el presente, un momento para liberarse del pasado y mirar hacia adelante con optimismo."
+    }
+  },
+  {
+    "numero": 43,
+    "titulo": "Siete de Copas",
+    "palabras_clave": "Confusión · Sueños y ambiciones · Especulación · Decisión · Tentación",
+    "descripcion": "Habla de tu ser interior, sueños y ambiciones no realizadas, señalando confusión o falta de entendimiento de tus motivaciones; es tiempo de reexaminar objetivos.",
+    "invertida": {
+      "palabras_clave": "Claridad · Elección consciente · Objetivos realistas · Despertar · Acción decisiva",
+      "significado": "Sugiere claridad, elecciones conscientes y objetivos realistas, un signo de despertar y tomar acción decisiva para manifestar sueños."
+    }
+  },
+  {
+    "numero": 44,
+    "titulo": "Ocho de Copas",
+    "palabras_clave": "Abandono · Evasión · Cambios en estilo de vida · Dejar / Irse · Desarrollo personal",
+    "descripcion": "Sugiere estabilidad y seguridad con un costo personal, insatisfacción con tu vida actual, impulsándote a encontrar el coraje para seguir una dirección diferente y buscar la felicidad.",
+    "invertida": {
+      "palabras_clave": "Miedo a abandonar · Estancamiento · Regreso al pasado · Incompletitud · Apego",
+      "significado": "Puede indicar miedo a abandonar, estancamiento o regreso al pasado, un llamado a liberarse y terminar lo empezado."
+    }
+  },
+  {
+    "numero": 45,
+    "titulo": "Nueve de Copas",
+    "palabras_clave": "Completo · Realizado · Generoso · Placer · Satisfacción",
+    "descripcion": "Un indicador muy poderoso y positivo de alegría duradera y realización en tu vida, relacionado con emprendimientos creativos y buenos deseos para el futuro.",
+    "invertida": {
+      "palabras_clave": "Insatisfacción · Vacío · Materialismo · Placeres superficiales · Desilusión",
+      "significado": "Puede indicar insatisfacción, vacío o búsqueda de placeres superficiales, un recordatorio para buscar la verdadera satisfacción en tu interior."
+    }
+  },
+  {
+    "numero": 46,
+    "titulo": "Diez de Copas",
+    "palabras_clave": "Abundancia · Logro · Compromiso · Familia · Felicidad",
+    "descripcion": "Puedes esperar alcanzar un objetivo esperado, con matices emocionales, significando reconciliaciones familiares y resolución de agitación interna, indicando lazos emocionales duraderos.",
+    "invertida": {
+      "palabras_clave": "Demoras · Interrupciones · Retrasos · Falta de progreso · Frustración",
+      "significado": "Puede indicar demoras, interrupciones o falta de progreso en relaciones, un llamado a la paciencia, comunicación y a nutrir lazos cercanos."
+    }
+  },
+  {
+    "numero": 47,
+    "titulo": "Sota de Copas",
+    "palabras_clave": "Anuncio · Nacimiento · Ideas creativas · Buenas noticias · Mensaje",
+    "descripcion": "Sugiere una naturaleza introspectiva, artística y bondadosa si te representa, o la llegada de buenas noticias y ayuda de alguien discreto.",
+    "invertida": {
+      "palabras_clave": "Inmadurez · Noticias decepcionantes · Creatividad bloqueada · Timidez · Engaño",
+      "significado": "Puede indicar inmadurez emocional, noticias decepcionantes o bloqueo creativo, un recordatorio para ser honesto y nutrir tu lado creativo."
+    }
+  },
+  {
+    "numero": 48,
+    "titulo": "Caballero de Copas",
+    "palabras_clave": "Llegada · Creativo · Invitación · Nuevas oportunidades · Propuesta",
+    "descripcion": "Te impulsa a recordar que la victoria se alcanza con inteligencia y destreza, advirtiendo mantener el enfoque ante nuevas iniciativas y buscar nuevos caminos.",
+    "invertida": {
+      "palabras_clave": "Desilusión · Engaño · Manipulación · Impulsividad · Celos",
+      "significado": "Puede advertir sobre desilusión, engaño o manipulación, un llamado a ser cauteloso y confiar en tu intuición."
+    }
+  },
+  {
+    "numero": 49,
+    "titulo": "Reina de Copas",
+    "palabras_clave": "Intuitivo · Mujer Madura y Sensible · Cónyuge · Virtuoso · Sabio",
+    "descripcion": "Asociada con la sensibilidad y la naturaleza afectuosa, es el equilibrio emocional para el Rey, un recordatorio para hombres de contactar sus aspectos emocionales.",
+    "invertida": {
+      "palabras_clave": "Inseguridad emocional · Manipulación · Codependencia · Bloqueo emocional · Falta de empatía",
+      "significado": "Puede indicar inseguridad emocional, manipulación o codependencia, un llamado a establecer límites y cultivar tu fuerza emocional."
+    }
+  },
+  {
+    "numero": 50,
+    "titulo": "Rey de Copas",
+    "palabras_clave": "Compasivo · Buen Consejo / Útil · Integridad · Hombre Maduro y Autoritario · Cónyuge",
+    "descripcion": "La proyección de la autoridad, probablemente una persona que te ayudará a alcanzar metas, ofreciendo consejos importantes basados en pureza de motivaciones, o tu propio control emocional.",
+    "invertida": {
+      "palabras_clave": "Manipulación emocional · Inmadurez · Crueldad · Vicio · Doble moral",
+      "significado": "Puede indicar manipulación emocional, inmadurez o crueldad disfrazada, un llamado a la honestidad y a ser cauteloso."
+    }
+  },
+  {
+    "numero": 51,
+    "titulo": "As de Espadas",
+    "palabras_clave": "Logro · Ventaja · Ventaja · Enfoque mental · Victoria",
+    "descripcion": "La encarnación más pura de su palo, habla de fuerte enfoque, determinación e intelecto, sugiriendo cambio a través de conflictos internos para triunfar.",
+    "invertida": {
+      "palabras_clave": "Confusión mental · Uso indebido del intelecto · Falta de claridad · Bloqueo de ideas · Derrota",
+      "significado": "Puede indicar confusión mental, uso indebido del intelecto o falta de claridad, un llamado a buscar la claridad mental y usar palabras con sabiduría."
+    }
+  },
+  {
+    "numero": 52,
+    "titulo": "Dos de Espadas",
+    "palabras_clave": "Equilibrio · Solución de conflictos · Decisiones · Tranquilidad de espíritu · Prejuicio",
+    "descripcion": "Representa un equilibrio de fuerzas, no ausencia de problemas, sino una distribución equitativa de fuerzas opuestas, pudiendo indicar mediación en conflicto o dilema.",
+    "invertida": {
+      "palabras_clave": "Bloqueo mental · Indecisión · Negación · Escapar de la verdad · Desequilibrio",
+      "significado": "Señala un bloqueo mental o negación a enfrentar la verdad, un llamado a quitarse la venda de los ojos y encontrar la paz."
+    }
+  },
+  {
+    "numero": 53,
+    "titulo": "Tres de Espadas",
+    "palabras_clave": "Nuevo comienzo · Pérdida · Dolor · Separación · Sufrimiento",
+    "descripcion": "Sugiere un dolor significativo en tu vida, probablemente por conflicto o amistad interrumpida; debes enfrentar el dolor honestamente para superarlo.",
+    "invertida": {
+      "palabras_clave": "Superación del dolor · Perdón · Reconciliación · Liberación · Aceptación",
+      "significado": "Indica la superación del dolor, perdón o reconciliación, un signo de que estás aceptando y siguiendo adelante."
+    }
+  },
+  {
+    "numero": 54,
+    "titulo": "Cuatro de Espadas",
+    "palabras_clave": "Demoras · Sanación · Descanso · Enfermedad · Retirada",
+    "descripcion": "Ofrece un respiro de las batallas en tu vida, una paz temporal, y puede apuntar a una recuperación después de una enfermedad prolongada.",
+    "invertida": {
+      "palabras_clave": "Inquietud · Agotamiento · Recaída · Falta de descanso · Recuperación incompleta",
+      "significado": "Puede indicar inquietud, agotamiento o recuperación incompleta, un llamado a buscar el descanso necesario."
+    }
+  },
+  {
+    "numero": 55,
+    "titulo": "Cinco de Espadas",
+    "palabras_clave": "Conflicto · Derrota · Pérdida · Baja autoestima · Separación",
+    "descripcion": "Indica conflicto y derrota traumática, sugiriendo que debes retirarte y reagruparte. Maneja la derrota con gracia y el éxito llegará.",
+    "invertida": {
+      "palabras_clave": "Reconciliación · Aceptación de la derrota · Fin del conflicto · Rendición · Remordimiento",
+      "significado": "Sugiere reconciliación, aceptación de la derrota o fin del conflicto, un signo de que estás buscando la paz y la armonía."
+    }
+  },
+  {
+    "numero": 56,
+    "titulo": "Seis de Espadas",
+    "palabras_clave": "Un viaje · Mejor futuro · Escape · Desafíos sobrantes · Viaje",
+    "descripcion": "Tu concentración mental te ayudará a dejar problemas atrás y dar paso a tiempos mejores, aunque aún hay desafíos, lo peor ha terminado.",
+    "invertida": {
+      "palabras_clave": "Estancamiento · Resistencia al cambio · Retrasos · Retorno al pasado · Conflicto sin resolver",
+      "significado": "Puede indicar estancamiento, resistencia al cambio o retrasos, un llamado a resolver asuntos pendientes antes de avanzar."
+    }
+  },
+  {
+    "numero": 57,
+    "titulo": "Siete de Espadas",
+    "palabras_clave": "Evitando confrontación · Fracaso · Incompleto · Robo · Oponentes desconocidos",
+    "descripcion": "Apuntada a una fuente única de frustración que puedes identificar, aconsejando la astucia y la evasión en lugar de la confrontación directa para el éxito.",
+    "invertida": {
+      "palabras_clave": "Peleas · Persona calumniosa o calumniada · Decepción familiar o de un buen amigo",
+      "significado": "Sugiere peleas, calumnias o decepción familiar, un llamado a la honestidad y cautela en tus relaciones."
+    }
+  },
+  {
+    "numero": 58,
+    "titulo": "Ocho de Espadas",
+    "palabras_clave": "Limitación · Decepcionado · Frustración · Obstáculos · Restricciones",
+    "descripcion": "Indica que estás siendo contenido por fuerzas fuera de tu control, restringiendo tus opciones; enfrenta la situación con paciencia y prepárate para moverte cuando cambie.",
+    "invertida": {
+      "palabras_clave": "Interferencia · Restricción · Enfermedad · Cautiverio · Indecisión",
+      "significado": "Sugiere interferencia, restricción, enfermedad, cautiverio o indecisión, un llamado a buscar la liberación y tu propia libertad de acción."
+    }
+  },
+  {
+    "numero": 59,
+    "titulo": "Nueve de Espadas",
+    "palabras_clave": "Accidentes · Paranoia · Depresión · Pena · Angustia Mental",
+    "descripcion": "Una de las cartas más negativas, predice angustia mental poderosa, insomnio, miedo, depresión, soledad; busca ayuda y consejo en otras cartas.",
+    "invertida": {
+      "palabras_clave": "Crueldad · Sufrimiento · Miseria · Martirio · Enfermedad · Pérdida de un ser amado",
+      "significado": "Puede indicar crueldad, sufrimiento o la pérdida de un ser amado, un recordatorio para buscar apoyo y sanar."
+    }
+  },
+  {
+    "numero": 60,
+    "titulo": "Diez de Espadas",
+    "palabras_clave": "Fin · Fracaso · Mortalidad · Nueva esperanza · Ruina",
+    "descripcion": "Anuncia un desastre total e inevitable, un fracaso que solo puede ser soportado; si te mantienes fuerte, nuevos sueños pueden construirse de las cenizas.",
+    "invertida": {
+      "palabras_clave": "Recuperación · Resistencia · Renovación · Escapatoria · Un mal fin evitado",
+      "significado": "Ofrece un rayo de esperanza, sugiriendo recuperación o haber evitado el peor escenario, un recordatorio de resiliencia y nuevos comienzos."
+    }
+  },
+  {
+    "numero": 61,
+    "titulo": "Sota de Espadas",
+    "palabras_clave": "Agresivo · Desafiante · Cambio · Inteligente · Vigilante",
+    "descripcion": "Si te representa, indica terquedad, capacidad de análisis y energía para identificar problemas y ser un excelente negociador. Si es una situación, prepárate para decisiones rápidas.",
+    "invertida": {
+      "palabras_clave": "Chismorreo · Impaciencia · Falta de concentración · Información falsa · Engaño",
+      "significado": "Puede indicar chismorreo, impaciencia o falta de concentración, un recordatorio para ser consciente de tus palabras y verificar información."
+    }
+  },
+  {
+    "numero": 62,
+    "titulo": "Caballero de Espadas",
+    "palabras_clave": "Conflicto · Destrucción · Dominante · Pérdida · Inesperado",
+    "descripcion": "Símbolo de una persona poderosa con dedicación y agudeza intelectual, que puede ser un compañero o enemigo. En circunstancias, indica tiempos turbulentos que requieren acción decisiva.",
+    "invertida": {
+      "palabras_clave": "Imprudencia · Incapacidad · Extravagancia",
+      "significado": "Advierte sobre imprudencia, incapacidad o extravagancia, un llamado a la moderación y reflexión antes de actuar."
+    }
+  },
+  {
+    "numero": 63,
+    "titulo": "Reina de Espadas",
+    "palabras_clave": "Una mujer madura y perceptiva · Independiente · Pérdida · Dolor · Separación",
+    "descripcion": "Representa a una persona perceptiva, perspicaz y profesionalmente distante, probablemente una maestra que te brindará ayuda y consejo sin interés romántico.",
+    "invertida": {
+      "palabras_clave": "Malicia · Intolerancia · Artificio · Mojigatería · Engaño",
+      "significado": "Puede indicar malicia, intolerancia, artificio o engaño, un llamado a la honestidad y empatía."
+    }
+  },
+  {
+    "numero": 64,
+    "titulo": "Rey de Espadas",
+    "palabras_clave": "Un hombre maduro y autoritario · Asertivo · Autoridad · Gobierno/ Legal · Liderazgo",
+    "descripcion": "Representa los aspectos profesionales de la autoridad, a menudo asociado con personas en negocios o leyes que te ayudarán. Puede ser firme y dominante, pero con motivaciones no emocionales.",
+    "invertida": {
+      "palabras_clave": "Crueldad · Malas intenciones · Perversidad · Barbarie · Ruptura de la fe",
+      "significado": "Puede advertir sobre crueldad, malas intenciones o abuso de poder, un llamado a la justicia, integridad y uso responsable del poder."
+    }
+  },
+  {
+    "numero": 65,
+    "titulo": "As de Bastos",
+    "palabras_clave": "Nacimiento · Comienzo · Creatividad · Inventiva · Nuevos Comienzos",
+    "descripcion": "Sugiere una nueva empresa o el nacimiento de un bebé, exigiendo innovación, entusiasmo y ambición para lograr un resultado satisfactorio.",
+    "invertida": {
+      "palabras_clave": "Falta de inspiración · Retrasos · Oportunidades perdidas · Falta de entusiasmo · Esterilidad",
+      "significado": "Puede indicar falta de inspiración, retrasos o oportunidades perdidas, un recordatorio para reavivar tu pasión."
+    }
+  },
+  {
+    "numero": 66,
+    "titulo": "Dos de Bastos",
+    "palabras_clave": "Logro · Ansiedad · Ganancia · Metas · Sociedad",
+    "descripcion": "Sugiere la formación de alianzas o el éxito de emprendimientos empresariales, con beneficios justos. También puede indicar preocupación o inseguridad.",
+    "invertida": {
+      "palabras_clave": "Miedo al cambio · Falta de progreso · Indecisión · Oportunidades perdidas · Planes abandonados",
+      "significado": "Puede indicar miedo al cambio, falta de progreso o indecisión, un recordatorio para superar miedos y tomar decisiones audaces."
+    }
+  },
+  {
+    "numero": 67,
+    "titulo": "Tres de Bastos",
+    "palabras_clave": "Logro · Empezar de cero · Éxito a largo plazo · Asociaciones · Intercambio",
+    "descripcion": "Si aportas tu creatividad, entrarás en una etapa favorable de productividad y logro; busca nuevas oportunidades laborales y aliados, y sé paciente para disfrutar las recompensas.",
+    "invertida": {
+      "palabras_clave": "Obstáculos · Retrasos en el progreso · Falta de visión · Proyectos estancados · Miedo a lo desconocido",
+      "significado": "Puede indicar obstáculos, retrasos o falta de visión, un recordatorio para perseverar y mantener una visión clara."
+    }
+  },
+  {
+    "numero": 68,
+    "titulo": "Cuatro de Bastos",
+    "palabras_clave": "Celebraciones y felicidad · Terminación · Armonía · Nuevos comienzos · Placer",
+    "descripcion": "La paz y la seguridad acompañan a los aspectos más pequeños de tu vida, augurando buenos términos y nuevos inicios, especialmente en relaciones y mudanzas.",
+    "invertida": {
+      "palabras_clave": "Inestabilidad · Desarmonía · Celebración pospuesta · Conflictos familiares · Retrasos",
+      "significado": "Puede indicar inestabilidad, desarmonía o celebración pospuesta, un llamado a buscar el equilibrio y resolver conflictos."
+    }
+  },
+  {
+    "numero": 69,
+    "titulo": "Cinco de Bastos",
+    "palabras_clave": "Ansiedad · Conflicto · Desacuerdo · Conflicto · Lucha",
+    "descripcion": "Anuncia peleas y tribulaciones, probablemente basadas en la competencia; una solución positiva está al alcance, pero la victoria puede tener un alto costo personal.",
+    "invertida": {
+      "palabras_clave": "Resolución de conflictos · Colaboración · Acuerdo · Reducción de la tensión · Tregua",
+      "significado": "Sugiere resolución de conflictos, colaboración o acuerdo, un signo de que la tensión está disminuyendo y buscas armonía."
+    }
+  },
+  {
+    "numero": 70,
+    "titulo": "Seis de Bastos",
+    "palabras_clave": "Terminación · Buenas noticias · Recompensa y Reconocimiento · Éxito · Triunfo",
+    "descripcion": "Tus esfuerzos pasados están a punto de rendir dividendos con éxito y reconocimiento, o buenas noticias; mantén la humildad para no perder a tus amigos.",
+    "invertida": {
+      "palabras_clave": "Fracaso · Humillación · Retraso · Desconfianza · Caída en desgracia",
+      "significado": "Puede indicar fracaso, humillación o retraso en el reconocimiento, un recordatorio para mantener la humildad y no depender de aprobación externa."
+    }
+  },
+  {
+    "numero": 71,
+    "titulo": "Siete de Bastos",
+    "palabras_clave": "Superación y Resistencia · Coraje · Éxitos a largo plazo · Perseverancia · Fuerza",
+    "descripcion": "Casi con certeza cuentas con una gran reserva de coraje y perseverancia para superar conflictos venideros, que aunque pequeños, serán significativos.",
+    "invertida": {
+      "palabras_clave": "Rendición · Cobardía · Duda · Abrumado · Ventaja perdida",
+      "significado": "Sugiere que podrías sentirte abrumado o dudar de tu capacidad para enfrentar desafíos, un llamado a reafirmar tu fuerza interior y no ceder."
+    }
+  },
+  {
+    "numero": 72,
+    "titulo": "Ocho de Bastos",
+    "palabras_clave": "Acciones apresuradas · Viaje · Un Viaje o Vuelo · Movimiento · Fin a un retraso",
+    "descripcion": "Prepárate para un abrupto incremento en el ritmo de tu vida; proyectos progresarán rápidamente, con posible éxito, y buenas noticias en relaciones, aunque requiera viajes.",
+    "invertida": {
+      "palabras_clave": "Demoras · Interrupciones · Retrasos · Falta de progreso · Frustración",
+      "significado": "Indica demoras, interrupciones o falta de progreso, un momento para tener paciencia, reevaluar estrategias y ser claro en intenciones."
+    }
+  },
+  {
+    "numero": 73,
+    "titulo": "Nueve de Bastos",
+    "palabras_clave": "Temeroso · Cauteloso · A la defensiva · Seguridad transitoria · Fuerza interior",
+    "descripcion": "Un descubrimiento agridulce que sugiere problemas venideros pero tu capacidad para superarlos; tu fuerza interior será necesaria para mantener la situación y seguir adelante.",
+    "invertida": {
+      "palabras_clave": "Paranoia · Ansiedad · Resistencia inútil · Agotamiento · Desconfianza",
+      "significado": "Puede indicar paranoia, ansiedad o resistencia inútil, un llamado a soltar la guardia, confiar en la intuición y buscar apoyo."
+    }
+  },
+  {
+    "numero": 74,
+    "titulo": "Diez de Bastos",
+    "palabras_clave": "Cargas · Retos · Presión intensa · Opresión · Compromiso excesivo",
+    "descripcion": "Es probable que estés trabajando muy duro o llevando más cargas de las que deberías, sobrecargándote para alcanzar tus metas o como consecuencia de haberlas obtenido.",
+    "invertida": {
+      "palabras_clave": "Alivio · Dejar ir · Liberación · Delegar · Fracaso en el objetivo",
+      "significado": "Sugiere un alivio de cargas, necesidad de delegar o fracaso por agotamiento, un momento para priorizar tu bienestar y aprender a decir 'no'."
+    }
+  },
+  {
+    "numero": 75,
+    "titulo": "Sota de Bastos",
+    "palabras_clave": "Aventurero · Ambicioso · Energético y Activo · Nuevos inicios · Hábil",
+    "descripcion": "Indica que te llegarán buenas noticias de una persona joven, o que posees energía ilimitada, lealtad y jovialidad, y que iniciarás un nuevo proyecto.",
+    "invertida": {
+      "palabras_clave": "Falta de entusiasmo · Noticias decepcionantes · Indecisión · Pesimismo · Imprudencia",
+      "significado": "Puede indicar falta de entusiasmo, noticias decepcionantes o indecisión, un llamado a reavivar tu espíritu aventurero."
+    }
+  },
+  {
+    "numero": 76,
+    "titulo": "Caballero de Bastos",
+    "palabras_clave": "Desafiante · Determinación · Viaje al exterior · Líder · Imprevisibilidad",
+    "descripcion": "La carta del inconformista, asociada contigo si eres espontáneo y cambiante, pero con energía. Puede significar un viaje o cambio de ambiente que llegará de improviso.",
+    "invertida": {
+      "palabras_clave": "Impulsividad · Retrasos en viajes · Conflictos · Arrogancia · Falta de dirección",
+      "significado": "Puede advertir sobre impulsividad, retrasos en viajes o conflictos por arrogancia, un llamado a la paciencia y planificación cuidadosa."
+    }
+  },
+  {
+    "numero": 77,
+    "titulo": "Reina de Bastos",
+    "palabras_clave": "Orientación profesional · Trabajador · Honesto · Independiente y hogareño · Considerado",
+    "descripcion": "Se asocia con una personalidad extrovertida y amistosa, autónoma pero con fuerte apego a amigos y familia, o una persona cercana en la que puedes confiar.",
+    "invertida": {
+      "palabras_clave": "Egoísmo · Celos · Dominante · Superficial · Venganza",
+      "significado": "Puede indicar egoísmo, celos o personalidad dominante, un llamado a la humildad, empatía y a usar tu fuerza para inspirar."
+    }
+  },
+  {
+    "numero": 78,
+    "titulo": "Rey de Bastos",
+    "palabras_clave": "Figura de autoridad · Ganancia financiera · Honesto y confiable · Arbitraje · Profesional",
+    "descripcion": "Puede significar una buena racha financiera, o una sociedad con una figura de autoridad masculina, un líder o conciliador; escucha los consejos de los experimentados.",
+    "invertida": {
+      "palabras_clave": "Tiranía · Crueldad · Impulsividad · Manipulación · Venganza",
+      "significado": "Puede advertir sobre tiranía, crueldad o impulsividad, un llamado a la sabiduría, integridad y uso responsable del liderazgo."
+    }
+  }
+]

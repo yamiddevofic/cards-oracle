@@ -1,0 +1,376 @@
+[
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_as_de_oros.html",
+        "titulo": "As de Oros",
+        "significado": "Esta carta es la mejor de la baraja. Anuncia éxito y felicidad en todos los asuntos, iniciando una etapa de prosperidad. Cualquier proyecto iniciado ahora tendrá éxito. Se relaciona con temas financieros, amorosos (copas), profesionales (bastos) o de salud (espadas).",
+        "id": 1,
+        "palabra_clave": "Triunfos",
+        "numero": 1,
+        "invertida": {
+            "significado": "El éxito y la fortuna son aún mayores que se puede imaginar."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_dos_de_oros.html",
+        "titulo": "Dos de Oros",
+        "significado": "Representa rivalidades o competencia que pueden traer problemas económicos o afectivos, por lo que se recomienda alerta. Poco propicio para nuevas iniciativas. Augura un mensaje. Presagia intensa emoción y escasa claridad. Posible aporte económico menor.",
+        "id": 2,
+        "palabra_clave": "Celos",
+        "numero": 2,
+        "invertida": {
+            "significado": "En posición invertida, deudas, cheques o pagarés pueden complicarlo de forma pasajera."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_tres_de_oros.html",
+        "titulo": "Tres de Oros",
+        "significado": "Representa fecundidad para emprendimientos exitosos o un posible embarazo. Gran capacidad para concretar ideas, habilidad en negocios, poder, reconocimiento y generosidad impulsan proyectos.",
+        "id": 3,
+        "palabra_clave": "Fortuna",
+        "numero": 3,
+        "invertida": {
+            "significado": "Estando invertida, simboliza frivolidad, mediocridad y falta de madurez que complican al consultante. Puede indicar preocupaciones imprevistas en la economía."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cuatro_de_oros.html",
+        "titulo": "Cuatro de Oros",
+        "significado": "Representa prosperidad y éxito laboral y en negocios. Augura inversiones con óptimos resultados, pero también un amor desmedido por el dinero que puede generar avaricia. Presagia la llegada de un obsequio o préstamo que brinda seguridad.",
+        "id": 4,
+        "palabra_clave": "Bienestar",
+        "numero": 4,
+        "invertida": {
+            "significado": "Estando invertida, puede anunciar desórdenes importantes, soluciones que no llegan, y problemas legales que podrían culminar en un arresto."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cinco_de_oros.html",
+        "titulo": "Cinco de Oros",
+        "significado": "Anuncia alegría, celebraciones y reconocimientos. Un compromiso afectivo kármico será determinante. Representa el descubrimiento de un vínculo afectivo significativo o una reunión positiva.",
+        "id": 5,
+        "palabra_clave": "Resoluciones",
+        "numero": 5,
+        "invertida": {
+            "significado": "Estando invertida, puede presagiar desavenencias en la pareja, libertinaje, discusiones y pérdida económica."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_seis_de_oros.html",
+        "titulo": "Seis de Oros",
+        "significado": "Representa dificultades que se resolverán fácilmente. Pronostica obstáculos económicos que se superarán, aumentando ganancias. Acontecimientos positivos se avecinan, volviendo al consultante generoso.",
+        "id": 6,
+        "palabra_clave": "Dificultades",
+        "numero": 6,
+        "invertida": {
+            "significado": "Si se encuentra invertida, anuncia codicia, mala suerte, envidias y celos que pueden enturbiar el futuro."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_siete_de_oros.html",
+        "titulo": "Siete de Oros",
+        "significado": "Representa a quienes usan sus recursos intuitivamente para el éxito, que llegará con esfuerzo y sacrificio. Con cartas favorables, puede indicar dinero imprevisto o herencia.",
+        "id": 7,
+        "palabra_clave": "Gratificaciones",
+        "numero": 7,
+        "invertida": {
+            "significado": "Si está invertida, indica inseguridad en proyectos futuros, miedo, inestabilidad espiritual, actitud irreflexiva en inversiones, impaciencia, arrepentimiento y aprehensión."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_sota_de_oros.html",
+        "titulo": "Sota de Oros",
+        "significado": "Representa a una mujer joven, rubia o entrecana, con buena posición económica, generosa, apasionada y soñadora. Brinda amistad y enfrenta desafíos con certeza. Es una aliada valiosa, pero como enemiga, sus amenazas se concretan.",
+        "id": 8,
+        "palabra_clave": "Sensatez y seguridad",
+        "numero": 10,
+        "invertida": {
+            "significado": "Si sale invertida, anuncia grandezas de todo tipo y despilfarros. También es portadora de buenas noticias."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_caballero_de_oros.html",
+        "titulo": "Caballero de Oros",
+        "significado": "Representa a un hombre de mediana edad, rubio o entrecano, amigable, inteligente y ambicioso materialmente. Simboliza habilidad en negocios, progresos económicos y riqueza por esfuerzo. Anuncia un amigo colaborador, posible viaje y buenas perspectivas.",
+        "id": 10,
+        "palabra_clave": "Caballero del orden",
+        "numero": 11,
+        "invertida": {
+            "significado": "Estando invertida, augura celos y pasiones sentimentales que afectarán el equilibrio emocional."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_rey_de_oros.html",
+        "titulo": "Rey de Oros",
+        "significado": "Representa a un hombre mayor, rubio o canoso, con sólida posición económica y habilidad para negocios. Personifica experiencia, inteligencia y aptitud de un financiero. Anuncia éxito en proyectos, posiblemente con colaboración. Es una de las cartas más favorables.",
+        "id": 9,
+        "palabra_clave": "Señor de la cima",
+        "numero": 12,
+        "invertida": {
+            "significado": "Si se encuentra invertida, presagia buena cosecha material por avaricia y corruptelas; se descubrirán vicios inconfesables."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_as_de_copas.html",
+        "titulo": "As de Copas",
+        "significado": "Muy buena carta en el ámbito familiar. Beneficiosa para crear familia, comprar casa o iniciar negocio familiar, augurando suerte. Anuncia bienestar y felicidad en el hogar.",
+        "id": 11,
+        "palabra_clave": "El Nido",
+        "numero": 1
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_dos_de_copas.html",
+        "titulo": "Dos de Copas",
+        "significado": "Se relaciona con hijos y creatividad (similar a un embarazo). Con cartas cercanas (sota o caballo) puede indicar embarazo o temas de hijos. Con bastos, capacidad creadora en el trabajo; con oros, gastos o ingresos por creaciones.",
+        "id": 12,
+        "palabra_clave": "Fecundidad",
+        "numero": 2
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_tres_de_copas.html",
+        "titulo": "Tres de Copas",
+        "significado": "Avisa de una noticia nueva e inesperada. Su naturaleza (buena o mala) depende de las cartas cercanas: con oros, dinero; con copas, familiar; con bastos, trabajo o personas lejanas; con espadas, salud.",
+        "id": 13,
+        "palabra_clave": "Mensajes",
+        "numero": 3
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cuatro_de_copas.html",
+        "titulo": "Cuatro de Copas",
+        "significado": "Se refiere al sexo y relaciones íntimas, liberando instintos y complejos. En una relación, indica que está dominada por el sexo, pudiendo ser frivolidad y aventuras. Con cartas negativas, problemas reproductivos. Con oros o bastos, finanzas o trabajo relacionados con actividades no muy legales.",
+        "id": 14,
+        "palabra_clave": "Instintos",
+        "numero": 4
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cinco_de_copas.html",
+        "titulo": "Cinco de Copas",
+        "significado": "Una de las mejores cartas, anuncia alegría, celebraciones y optimismo. Si se pregunta por un problema, saldrá bien. Si simboliza al consultante, será centro de atención y reconocimiento. Con otras copas, celebraciones familiares; con bastos, ascensos o ganancias laborales; con oros, ingresos o venta de casa; con espadas, desaparición de dolencia.",
+        "id": 15,
+        "palabra_clave": "Celebración",
+        "numero": 5
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_seis_de_copas.html",
+        "titulo": "Seis de Copas",
+        "significado": "Indica un estado de tristeza por malos recuerdos, miedos o pensamientos negativos que impiden avanzar. Es difícil que la situación mejore sin un cambio de actitud optimista. Las cartas cercanas dan más información sobre la melancolía (emocional, laboral, salud, dinero).",
+        "id": 16,
+        "palabra_clave": "Melancolía",
+        "numero": 6
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_siete_de_copas.html",
+        "titulo": "Siete de Copas",
+        "significado": "Excelente carta que anuncia un periodo de satisfacción y cumplimiento de deseos profundos, fruto del esfuerzo. Puede indicar felicidad en pareja, encuentro del amor, recompensas laborales o nuevo empleo. Vitalidad y buena salud.",
+        "id": 17,
+        "palabra_clave": "Plenitud",
+        "numero": 7
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_sota_de_copas.html",
+        "titulo": "Sota de Copas",
+        "significado": "Representa a una mujer (o consultante con esas características) pálida, ojos claros, pelo cobrizo, romántica, sensible, soñadora, amorosa y creativa. Tendrá suficiente dinero y éxito laboral por su creatividad. Necesita amor en su vida. Se relaciona con medicina alternativa y enfermedades emocionales.",
+        "id": 18,
+        "palabra_clave": "Dama romántica",
+        "numero": 10
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_caballo_de_copas.html",
+        "titulo": "Caballo de Copas",
+        "significado": "Representa a un hombre (o mujer) de tez clara, ojos líquidos, pelo castaño claro, soñador, romántico y con altos ideales, sin ambiciones materiales. En amor, una relación profunda y de entrega. Poco interés en lo material. Posibles dotes de curación.",
+        "id": 20,
+        "palabra_clave": "Caballero andante",
+        "numero": 11
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_rey_de_copas.html",
+        "titulo": "Rey de Copas",
+        "significado": "Hace referencia al estado mental del consultante, indicando una persona o situación en el 'país de los sueños', inalcanzable. Se trata de alguien soñador, con dificultades para ser realista. En amor, haría locuras por una pareja. En trabajo y dinero, el deseo de progresar choca con utopías. La salud depende del estado de ánimo.",
+        "id": 19,
+        "palabra_clave": "Señor de los Sueños",
+        "numero": 12
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_as_de_espadas.html",
+        "titulo": "As de Espadas",
+        "significado": "Avisa de trámites legales y burocráticos importantes. Las cartas cercanas detallan el tipo: con copas, familia/pareja; con bastos, extranjería/profesional; con oros, dinero.",
+        "id": 21,
+        "palabra_clave": "Compromisos legales",
+        "numero": 1,
+        "invertida": {
+            "significado": "Cuidado con estafas. Problemas con burocracia y contratos son muy probables."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_dos_de_espadas.html",
+        "titulo": "Dos de Espadas",
+        "significado": "Representa dualidad y sorpresa, ya sea apoyo incondicional de amigos o enemistad de conocidos inesperados. Advierte sobre una lucha mental que causa dolor.",
+        "id": 22,
+        "palabra_clave": "Sorpresa",
+        "numero": 2,
+        "invertida": {
+            "significado": "Estando invertida, muestra un posible engaño de alguien con dos caras que intentará lastimarte por venganza."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_tres_de_espadas.html",
+        "titulo": "Tres de Espadas",
+        "significado": "Por sí sola, es negativa. Augura conflictos importantes con el entorno cercano. Simboliza miedo a enemigos, afectando negativamente lo emocional y sentimental. Representa un distanciamiento doloroso con un ser querido.",
+        "id": 23,
+        "palabra_clave": "Sucesos a largo plazo",
+        "numero": 3,
+        "invertida": {
+            "significado": "El presagio es aún más negativo, pudiendo llegar hasta la locura. El buen augurio debe buscarse en cartas acompañantes."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cuatro_de_espadas.html",
+        "titulo": "Cuatro de Espadas",
+        "significado": "Se refiere a baches que afectan la tranquilidad y paz, inmerso en engaños, intrigas, dificultades y estafas a evitar. También a la salud, presagiando enfermedad que lleva a aislamiento y retiro, posible exilio, desierto o muerte.",
+        "id": 24,
+        "palabra_clave": "Baches y mala salud",
+        "numero": 4,
+        "invertida": {
+            "significado": "Su sentido cambia por completo, augurando gran fuerza interior, tranquilidad de espíritu y claridad para afrontar el futuro exitosamente."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cinco_de_espadas.html",
+        "titulo": "Cinco de Espadas",
+        "significado": "Convierte situaciones favorables en amenazas y obstáculos. Representa preocupación y remordimientos, necesidad de saldar karma negativo, presagiando disgustos o enfrentamientos. Muestra adversarios dispuestos a luchar. Controla pensamientos para evitar estancamiento.",
+        "id": 25,
+        "palabra_clave": "Separaciones y cambios",
+        "numero": 5,
+        "invertida": {
+            "significado": "Augura desolación, desgracias y posible luto. Los aspectos positivos deben buscarse en las cartas acompañantes."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_seis_de_espadas.html",
+        "titulo": "Seis de Espadas",
+        "significado": "Representa conflicto y la posibilidad de herir o ser herido. El consultante depende de terceros para acciones. Mentalmente, evita autoengaño y proyectar culpas. Imposibilidad temporal de relación estable. Presagia viajes con contratiempos y proyectos estancados. Se recomienda paciencia.",
+        "id": 26,
+        "palabra_clave": "Debilidad y achaques",
+        "numero": 6
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_siete_de_espadas.html",
+        "titulo": "Siete de Espadas",
+        "significado": "Representa esperanza, generando confianza y vislumbrando un futuro mejor. Genera sobrecarga energética que, aunque da fuerza, a veces impide el control de la razón sobre las emociones. Advierte sobre temor, egoísmo y celos en relaciones. Augura esperanza y algo de dinero.",
+        "id": 27,
+        "palabra_clave": "Sucesos a corto plazo",
+        "numero": 7
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_sota_de_espadas.html",
+        "titulo": "Sota de Espadas",
+        "significado": "Representa a una mujer joven, de cabello oscuro, firme y arrogante. Agresiva, resuelta, ambiciosa, perceptiva y capaz. Es una compañera invalorable por su contención y consejos claros. Puede representar una viuda o una enemiga que genera intrigas.",
+        "id": 28,
+        "palabra_clave": "Dama del pensamiento",
+        "numero": 10,
+        "invertida": {
+            "significado": "Invertida, anuncia imprevistos, sorpresas e importantes ganancias económicas."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_caballero_de_espadas.html",
+        "titulo": "Caballero de Espadas",
+        "significado": "Es el caballero de la fortaleza, valor, resistencia y a veces destrucción. Defensor de causas justas, asume riesgos ante injusticias. Ideal como aliado para tiempos complicados. Muestra un conflicto a encarar con decisión. Mala noticia como mensaje o por una mujer. Observa nuevas amistades, algunas pueden ser traicioneras.",
+        "id": 30,
+        "palabra_clave": "Caballero de las ideas",
+        "numero": 11
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_rey_de_espadas.html",
+        "titulo": "Rey de Espadas",
+        "significado": "Representa a un hombre de pelo oscuro, inteligente y firme, posiblemente ejecutivo. Puede pronosticar problemas con la justicia y riesgo de perder derechos. Insiste hasta ver sus planes favorables.",
+        "id": 29,
+        "palabra_clave": "Señor de la iniciativa",
+        "numero": 12,
+        "invertida": {
+            "significado": "En posición invertida, puede augurar soledad, enfermedad o separación para quien está en declive."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_as_de_bastos.html",
+        "titulo": "As de Bastos",
+        "significado": "Habla de sucesos a largo plazo o lejanos. Puede indicar viajes largos, relaciones extranjeras o proyectos que requieren tiempo. Sugiere previsión y calma.",
+        "id": 31,
+        "palabra_clave": "Lejanía",
+        "numero": 1,
+        "invertida": {
+            "significado": "Si aparece al revés, su significado es más negativo: las cosas no avanzan, viajes no salen, y aparecen asuntos o personas desagradables del pasado."
+        }
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_dos_de_bastos.html",
+        "titulo": "Dos de Bastos",
+        "significado": "Habla de viajes cortos, escapadas y conversaciones con allegados, pequeñas alegrías. Busca la felicidad en la cercanía. En amor, anuncia un flirteo o renovación. Si deprimido, transmite esperanza.",
+        "id": 32,
+        "palabra_clave": "Cercanía",
+        "numero": 2
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_tres_de_bastos.html",
+        "titulo": "Tres de Bastos",
+        "significado": "Habla de amor universal y fraternidad. Las personas representadas tienen una visión espiritual y amor profundo por todos. En amor, indica una relación muy profunda donde el sexo puede no ser importante.",
+        "id": 33,
+        "palabra_clave": "Fraternidad y amor universal",
+        "numero": 3
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cuatro_de_bastos.html",
+        "titulo": "Cuatro de Bastos",
+        "significado": "Esta carta otorga a las personas resistencia y fuerza interior.",
+        "id": 34,
+        "palabra_clave": "Resistencia",
+        "numero": 4
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_cinco_de_bastos.html",
+        "titulo": "Cinco de Bastos",
+        "significado": "Hace referencia a conocimientos adquiridos por estudios y experiencias. Si se refiere al consultante, indica buena formación académica o mucha experiencia, buena salud. En trabajo, se deben estudiar y analizar proyectos.",
+        "id": 35,
+        "palabra_clave": "Sabiduría",
+        "numero": 5
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_seis_de_bastos.html",
+        "titulo": "Seis de Bastos",
+        "significado": "Una de las cartas más negativas, indicando depresión, tristeza y falta de ganas de seguir. El estado de ánimo está por el suelo, difícil de cambiar sin un cambio de actitud. Los sentimientos paralizan el progreso. Las cartas cercanas indican la razón. Terapias como hipnosis o meditación pueden ayudar.",
+        "id": 36,
+        "palabra_clave": "Abatimiento",
+        "numero": 6
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_siete_de_bastos.html",
+        "titulo": "Siete de Bastos",
+        "significado": "Se relaciona con la profesión y el mundo laboral, indicando posibilidades de ascenso y grado de entrega. Si representa al consultante, es una persona muy responsable. Las cartas cercanas dan más información sobre satisfacción laboral y ganancias.",
+        "id": 37,
+        "palabra_clave": "Mundo laboral",
+        "numero": 7
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_sota_de_bastos.html",
+        "titulo": "Sota de Bastos",
+        "significado": "Simboliza a una mujer (o consultante con esas características) de pelo castaño, tez morena, energética, apasionada, impulsiva, carismática, creativa y segura. En lo material, gasto impulsivo pero habilidad para conseguir dinero. En amor, relaciones movidas o celos. En trabajo, energía y carisma para prosperar. Buena salud.",
+        "id": 38,
+        "palabra_clave": "Dama de la Pasión",
+        "numero": 10
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_caballo_de_bastos.html",
+        "titulo": "Caballero de Bastos",
+        "significado": "Representa a un hombre (o mujer) de tez morena, pelo oscuro, atlético, energético, con nobles ideales, afectuoso y orgulloso. Relacionado con carisma y liderazgo. En amor, una relación fuerte y apasionada. En trabajo, decisión. Buena salud y amor por los deportes.",
+        "id": 40,
+        "palabra_clave": "Caballero carismático",
+        "numero": 11
+    },
+    {
+        "url": "http://www.consultacartas.com/baraja_espanola_rey_de_bastos.html",
+        "titulo": "Rey de Bastos",
+        "significado": "Hace referencia al estado interior del consultante. Suele ser una persona con mucha experiencia, emprendedora, energética, carismática, con dotes de mando y muy segura, que logra cualquier meta. Las cartas cercanas indican preocupaciones (sentimentales, enfermedades, ambiciones profesionales).",
+        "id": 39,
+        "palabra_clave": "Señor de la Experiencia",
+        "numero": 12
+    }
+]

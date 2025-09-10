@@ -1,0 +1,1101 @@
+{
+  "cartas_oraculo": [
+    {
+      "numero": 1,
+      "nombre": "EL MAGO",
+      "significado": {
+        "derecho": "Positivo: Profundidad del ser, espíritu, voluntad, creatividad, triunfo, dominio de fuerzas. Perseverancia. Hombre joven, inteligente, hábil, creativo.",
+        "reves": "Positivo: Esclarecimiento y luz. Misma persona con dudas, obstáculos a vencer por no usar bien su mente, caminos abiertos que no sabe ver."
+      },
+      "palabras_clave": "El mundo",
+      "palabras_clave_al_reves": "La desgracia",
+      "carta": {
+        "palo": "oros",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 2,
+      "nombre": "LA SACERDOTISA",
+      "significado": {
+        "derecho": "Positivo: Mujer, inteligencia, conocimientos. Se identifica con la consultante o la mujer más importante para un hombre. Conocimiento esotérico, poder mental, luz y sombra, opuestos, situaciones ocultas o misteriosas. Papeles en desorden. Mujer oculta.",
+        "reves": "Neutro: Desinteligencias, mujer descubierta (enemiga). Situaciones que se aclaran, papeles en orden, estabilidad recuperada, ganancias."
+      },
+      "palabras_clave": "Ilustración",
+      "palabras_clave_al_reves": "Juego",
+      "carta": {
+        "palo": "oros",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 3,
+      "nombre": "LA EMPERATRIZ",
+      "significado": {
+        "derecho": "Positivo: Madre del consultante. Mujer, sabiduría, fecundidad. Dinamismo viviente, poder. Mujer con conocimientos que usa la matriz universal en su labor creativa.",
+        "reves": "Negativo: Misma mujer en caída, triste, deprimida, enferma (psíquica/físicamente) o muerte. Divorcio o separación definitiva. Ruptura irremediable."
+      },
+      "palabras_clave": "Conversación",
+      "palabras_clave_al_reves": "Agua",
+      "carta": {
+        "palo": "oros",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 4,
+      "nombre": "EL EMPERADOR",
+      "significado": {
+        "derecho": "Positivo: Hombre más importante para la consultante (novio, marido, amigo, amante), hijo adulto, jefe joven. Cargo y poder. Si el consultante es hombre, se ve reflejado.",
+        "reves": "Negativo: Mismo hombre en diferente estado: débil, deprimido, enfermo (anímica/físicamente), sin poder. Ha perdido dinero, cargo, jerarquía. Obstáculos y trabas."
+      },
+      "palabras_clave": "Despojo",
+      "palabras_clave_al_reves": "Aire",
+      "carta": {
+        "palo": "oros",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 5,
+      "nombre": "EL JERARCA",
+      "significado": {
+        "derecho": "Positivo: Padre del consultante, hombre mayor, jefe superior. Manos amigas. Enseñanzas provechosas.",
+        "reves": "Negativo: Misma persona en caída, anímica o físicamente mal, deprimida, aislada, enferma, alejada, muerta. Malos amigos, seres y cosas que se van o se pierden. Puede ser hombre no demasiado mayor."
+      },
+      "palabras_clave": "Viaje",
+      "palabras_clave_al_reves": "Tierra",
+      "carta": {
+        "palo": "oros",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 6,
+      "nombre": "LA INDECISION",
+      "significado": {
+        "derecho": "Negativo: Indecisión, antagonismos, desazón, dificultad. Persona con dudas al elegir entre dos caminos. Abatimiento, rupturas y separaciones. Gran indecisión.",
+        "reves": "Positivo: No hay indecisión ni dudas, cosas se resuelven naturalmente. No es necesario tomar decisiones. Deseos que se cumplen."
+      },
+      "palabras_clave": "La noche",
+      "palabras_clave_al_reves": "El día",
+      "carta": {
+        "palo": "oros",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 7,
+      "nombre": "EL TRIUNFO",
+      "significado": {
+        "derecho": "Positivo: Triunfos y logros, justicia, honores, proyectos concretados. Poder magnético. Éxitos económicos y financieros, buena fortuna, dinero, operaciones ventajosas, triunfos.",
+        "reves": "Negativo: Negación o retardo de triunfos y logros, o no llegan. Fracasos económicos y financieros, deshonor, batallas perdidas (puede aliviarse con otras cartas)."
+      },
+      "palabras_clave": "Apoyo",
+      "palabras_clave_al_reves": "Protección",
+      "carta": {
+        "palo": "oros",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 8,
+      "nombre": "LA JUSTICIA",
+      "significado": {
+        "derecho": "Positivo: Buena fortuna, justicia a favor, juicio ganado o por ganar. Papeles en regla, hechos justos. Fuerza del derecho, recto pensar, recompensas.",
+        "reves": "Negativo: Mala fortuna, problemas legales, pleitos, juicio perdido, falta de compensación. Papeles confusos, ingratitud."
+      },
+      "palabras_clave": "Descanso",
+      "palabras_clave_al_reves": "Fatiga",
+      "carta": {
+        "palo": "oros",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 9,
+      "nombre": "EL EREMITA",
+      "significado": {
+        "derecho": "Neutro: Hombre sabio con ideas especiales, se distingue. Sabiduría, gran capacidad intelectual, reserva, prudencia. Ilumina su mundo interior y luego a otros.",
+        "reves": "Negativo o Neutro (según cartas): Hombre solo, viudo, divorciado, soltero (generalmente capricorniano). Depresión, decaimiento, enfermedad."
+      },
+      "palabras_clave": "La justicia",
+      "palabras_clave_al_reves": "Las leyes",
+      "carta": {
+        "palo": "oros",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 10,
+      "nombre": "LA RETRIBUCION",
+      "significado": {
+        "derecho": "Positivo: Buena fortuna y éxitos. Causa y efecto, karma diario. Éxitos en amor, relaciones. Cuidar que no se dé vuelta la rueda. Buena carta.",
+        "reves": "Negativo: Mala fortuna, descenso, circunstancias negativas que se repiten. Esfuerzo para que la rueda vuelva a favor."
+      },
+      "palabras_clave": "La templanza",
+      "palabras_clave_al_reves": "La sabiduría",
+      "carta": {
+        "palo": "copas",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 11,
+      "nombre": "LA PERSUASION",
+      "significado": {
+        "derecho": "Positivo: Persuasión, seducción, atractivo personal que domina sin violencia. Acto apacible de seducir. Acción del espíritu sobre la materia. Habilidad y seducción para lograr lo deseado con inteligencia y dulzura.",
+        "reves": "Negativo: Persona que quiere conseguir cosas por la fuerza, imponer voluntad y no lo logra. Se siente desvalorizada. Descuido personal."
+      },
+      "palabras_clave": "La fuerza",
+      "palabras_clave_al_reves": "Los celos",
+      "carta": {
+        "palo": "copas",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 12,
+      "nombre": "EL APOSTOLADO",
+      "significado": {
+        "derecho": "Neutro: Utopía, idealismo, ensoñación. El consultante es así. Falsa apreciación de la realidad, idealismo exagerado, fantasía. Pérdidas materiales y espirituales. Ley de la propia represión.",
+        "reves": "Neutro: Persona ubicada, realista, concreta, con los pies en la tierra. Ganancias en la vida, presentimientos buenos. No hay sacrificio. Ingenuidad y credulidad."
+      },
+      "palabras_clave": "La prudencia",
+      "palabras_clave_al_reves": "El pueblo",
+      "carta": {
+        "palo": "copas",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 13,
+      "nombre": "LA INMORTALIDAD",
+      "significado": {
+        "derecho": "Positivo: Cortes con el pasado. Buena cosecha de lo sembrado, recompensa, logros, caminos abiertos, renovación, renacimiento.",
+        "reves": "Positivo: El consultante comienza una nueva etapa. Fin de problemas, pero si no cuida lo obtenido, corre riesgo de perderlo. Con cartas negativas: no hay logros ni recompensas (no hay cortes con el pasado), caminos cortados, trabas."
+      },
+      "palabras_clave": "Matrimonio",
+      "palabras_clave_al_reves": "Unión",
+      "carta": {
+        "palo": "copas",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 14,
+      "nombre": "LA TEMPERANCIA",
+      "significado": {
+        "derecho": "Positivo: Equilibrio, templanza, falta de paciencia. Afinidad de opuestos. Calma, armonía. Carta muy positiva.",
+        "reves": "Negativo: Desequilibrio, falta de paciencia. No hay serenidad, ni calma, ni tolerancia. Cierta indiferencia, amores contrariados o traicioneros, cosas que se van."
+      },
+      "palabras_clave": "Fuerza mayor",
+      "palabras_clave_al_reves": "Fuerza menor",
+      "carta": {
+        "palo": "copas",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 15,
+      "nombre": "LA PASION",
+      "significado": {
+        "derecho": "Negativo: Fuerza física, mental y espiritual en exceso. Orgullo y vanidad del consultante. Fuerza del deseo, malicia, pasiones bajas, presiones fuertes, vicios, fuerzas sexuales descontroladas, desmedidas. Magia negra (última lectura).",
+        "reves": "Negativo: Orgullo y vanidad vencidas. Venciendo desventajas. Invertida pierde fuerza, no existe nada de lo que hay al derecho. Si estuvo, ya no está. Liberación."
+      },
+      "palabras_clave": "Enfermedad",
+      "palabras_clave_al_reves": "Enfermedad",
+      "carta": {
+        "palo": "copas",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 16,
+      "nombre": "LA FRAGILIDAD",
+      "significado": {
+        "derecho": "Negativo: Disipación de energías, cansancio, fragilidad, rotura de vínculos. Personas o situaciones con tendencia a la fragilidad. Posibilidad de rupturas; había que llegar hasta aquí para empezar de nuevo.",
+        "reves": "Negativo: Catástrofe o destrucción (nivel interno de la persona). Cárcel o prisión (estado de ánimo). Accidentes o muerte. Transformación."
+      },
+      "palabras_clave": "El juicio",
+      "palabras_clave_al_reves": "El juicio",
+      "carta": {
+        "palo": "copas",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 17,
+      "nombre": "LA ESPERANZA",
+      "significado": {
+        "derecho": "Positivo: Esperanza, fe, equilibrio físico y mental. Fuerza creadora de la fe, intuición, confianza, esperanza, iluminación; representa la inmortalidad.",
+        "reves": "Negativo: Desesperanza, no hay ilusiones, no hay confianza, falta de expectativas, pesimismo, aflicciones, enojos, enfados, abandonos."
+      },
+      "palabras_clave": "Fin",
+      "palabras_clave_al_reves": "Nada",
+      "carta": {
+        "palo": "copas",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 18,
+      "nombre": "EL CREPÚSCULO",
+      "significado": {
+        "derecho": "Negativo: Inestabilidad, situaciones inciertas, impedimentos a traumas, dolores del pasado que influyen en el presente, enemigos ocultos (puede ser uno mismo).",
+        "reves": "Negativo: Traición, fraude, estafa, engaño, peligro de robo, despojo. Enemigos descubiertos. Si cae con carta de pareja invertida, confirma adulterio. Decepciones."
+      },
+      "palabras_clave": "Traidor",
+      "palabras_clave_al_reves": "Falsedad",
+      "carta": {
+        "palo": "copas",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 19,
+      "nombre": "LA INSPIRACION",
+      "significado": {
+        "derecho": "Positivo: Felicidad, recompensas, fidelidad de pareja, uniones, sociedades o amistades (común usarla como pareja), ideas claras.",
+        "reves": "Negativo: Problemas de pareja y posibilidad de distanciamiento (físico/sentimental). Desacuerdos y separaciones (definitivas o no, según cartas). Cosas dentro y fuera de la pareja se retardan."
+      },
+      "palabras_clave": "Miseria",
+      "palabras_clave_al_reves": "Prisión",
+      "carta": {
+        "palo": "espadas",
+        "valor": "as",
+        "imagen": ""
+      }
+    },
+    {
+      "numero": 20,
+      "nombre": "LA RESURRECCION",
+      "significado": {
+        "derecho": "Positivo: Despertar a la espiritualidad. Fin de situaciones paralizantes (físicas/mentales). Evolución, cambios favorables, negocios favorables. Salud que mejora. Amigos fieles que anulan acción de amigos traidores.",
+        "reves": "Negativo: Obstrucción, situaciones paralizadas por falta de trabajo espiritual. Aflicciones por pérdidas, muerte interior, caminos cortados. Salud que desmejora."
+      },
+      "palabras_clave": "Fortuna",
+      "palabras_clave_al_reves": "Aumento",
+      "carta": {
+        "palo": "espadas",
+        "valor": "dos",
+        "imagen": ""
+      }
+    },
+    {
+      "numero": 21,
+      "nombre": "TRANSMUTACION",
+      "significado": {
+        "derecho": "Positivo: Cambios favorables, rumbos positivos. La persona maneja su destino, caminos abiertos. Trabajo remunerado, victorias, disfrute de deleites honestos, armonía, recompensas generosas.",
+        "reves": "Negativo: Acciones arrogantes, persona o autoridad dominante. Posibles fracasos. La persona es manejada por otros, caminos cerrados o cortados, no puede tomar decisiones, situaciones inciertas."
+      },
+      "palabras_clave": "Dominio",
+      "palabras_clave_al_reves": "Arrogancia",
+      "carta": {
+        "palo": "espadas",
+        "valor": "tres",
+        "imagen": ""
+      }
+    },
+    {
+      "numero": 22,
+      "nombre": "EL REGRESO",
+      "significado": {
+        "derecho": "Negativo: Retorno al pasado (puede ser mental). Obsesión, indiscreción. Situaciones o conductas que se repiten; lo que fue bueno será malo y lo malo será peor.",
+        "reves": "Positivo: Que esta persona no debe regresar al pasado, debe vivir el presente. El pasado no se repite, hay cortes con él. No hay regreso de una persona (del pasado o de la propia historia)."
+      },
+      "palabras_clave": "Buenos consejos",
+      "palabras_clave_al_reves": "Hombre de bien",
+      "carta": {
+        "palo": "espadas",
+        "valor": "cuatro",
+        "imagen": ""
+      }
+    },
+    {
+      "numero": 23,
+      "nombre": "EL LABRADOR",
+      "significado": {
+        "derecho": "Positivo: Trabajo, fuerza de trabajo (brazos levantados), economía organizada. Localiza sitios geográficos (rurales, campestres, abiertos). Representa el trabajo.",
+        "reves": "Negativo: Poco trabajo (brazos caídos), falta de amigos poderosos. Cosas en el trabajo van mal o no hay. Poca fuerza. Localiza sitios urbanos o de capitales."
+      },
+      "palabras_clave": "Compañía",
+      "palabras_clave_al_reves": "Buena mujer",
+      "carta": {
+        "palo": "espadas",
+        "valor": "cinco",
+        "imagen": ""
+      }
+    },
+    {
+      "numero": 24,
+      "nombre": "LA TEJEDORA",
+      "significado": {
+        "derecho": "Positivo: Todo lo relacionado con el hogar, la casa del consultante, hogar positivo. Persona que trabaja en casa. Mujer hacendosa como custodia del hogar y la honestidad.",
+        "reves": "Negativo: Persona que trabaja fuera del hogar con buenas ganancias. Alejamiento o ausencia, carencia de hogar, mala imagen del hogar por infelicidad."
+      },
+      "palabras_clave": "Partida",
+      "palabras_clave_al_reves": "Desunión",
+      "carta": {
+        "palo": "espadas",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 25,
+      "nombre": "EL ARGONAUTA",
+      "significado": {
+        "derecho": "Neutro: Hombre animoso que afronta peligros. Países extranjeros. Viajes largos en tiempo o distancia. Alejamientos prolongados.",
+        "reves": "Negativo: Retraso o postergación de viajes. Persona extranjera que llega o extraña a casa/familia, algo que se pierde."
+      },
+      "palabras_clave": "Buen extranjero",
+      "palabras_clave_al_reves": "Noticia",
+      "carta": {
+        "palo": "espadas",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 26,
+      "nombre": "EL PRODIGIO",
+      "significado": {
+        "derecho": "Positivo: Situaciones externas positivas, hechos que sorprenden. Acción del tiempo como justicia. Cosas que se realizan. Situaciones mágicas o milagrosas.",
+        "reves": "Negativo: Situaciones externas negativas. Peligros que amenazan. Ningún milagro ni prodigio (persona con energía completamente negativa)."
+      },
+      "palabras_clave": "Traición",
+      "palabras_clave_al_reves": "Traición",
+      "carta": {
+        "palo": "espadas",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 27,
+      "nombre": "LO INESPERADO",
+      "significado": {
+        "derecho": "Positivo: Sucesos inesperados. Cosas que llegan inesperadamente. Sorpresas, triunfos condicionados (aunque el escorpión suba, no siempre son agresivas o negativas).",
+        "reves": "Neutro: Nada inesperado. Ni bueno ni malo, ni agresivo. Todo lo que ocurra ya se espera o se sabe. Sucesos elaborados."
+      },
+      "palabras_clave": "Retardo",
+      "palabras_clave_al_reves": "Contratiempo",
+      "carta": {
+        "palo": "espadas",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 28,
+      "nombre": "LA INCERTIDUMBRE",
+      "significado": {
+        "derecho": "Negativo: Duda, incertidumbre; la persona no sabe qué camino tomar. Virtud humana de la propia determinación; demoras, obstáculos; misterios a resolver.",
+        "reves": "Positivo: La persona no tiene dudas sobre el camino; tiene seguridad; ciencia para resolver problemas."
+      },
+      "palabras_clave": "Partida de campo",
+      "palabras_clave_al_reves": "Disputas",
+      "carta": {
+        "palo": "espadas",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 29,
+      "nombre": "LA DOMESTICIDAD",
+      "significado": {
+        "derecho": "Positivo: Adaptación (trabajo/pareja). Docilidad, contención, prudencia, acto de concordia. Virtud humana del dominio por persuasión.",
+        "reves": "Negativo: Inadaptación, rebeldía, desborde (puede ser negativo o positivo). Indecisiones, empresas con lucha pero de buenos resultados."
+      },
+      "palabras_clave": "Conferencia",
+      "palabras_clave_al_reves": "Indecisión",
+      "carta": {
+        "palo": "bastos",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 30,
+      "nombre": "INTERCAMBIO",
+      "significado": {
+        "derecho": "Positivo: Expansión individual por convivencia comercial. Buen intercambio humano. Trabajo bien remunerado, charlas comerciales positivas.",
+        "reves": "Negativo: Mal intercambio humano y en otros niveles. Discusiones sin solución. Trabajo mal remunerado. Mal intercambio trae problemas de trabajo."
+      },
+      "palabras_clave": "Engaño",
+      "palabras_clave_al_reves": "Espera",
+      "carta": {
+        "palo": "bastos",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 31,
+      "nombre": "IMPEDIMENTOS",
+      "significado": {
+        "derecho": "Negativo: Dificultades, obstáculos, trabajos, restricciones, impedimentos. Expectativas no se cumplen. Inconvenientes de pareja, hijos, padres, trabajo.",
+        "reves": "Positivo: No hay dificultades, ni obstáculos, ni trabas. Camino libre."
+      },
+      "palabras_clave": "Oro",
+      "palabras_clave_al_reves": "Proceso",
+      "carta": {
+        "palo": "bastos",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 32,
+      "nombre": "LA MAGNIFICENCIA",
+      "significado": {
+        "derecho": "Positivo: Abundancia de dinero, en el vivir, trabajo, amor, amistad. Conversaciones provechosas (comerciales/laborales).",
+        "reves": "Negativo: Lo contrario a lo anterior. Conversaciones intrascendentes. No hay abundancia ni provecho, ni ganancias. Falta de importancia material y afectiva."
+      },
+      "palabras_clave": "Sociedad",
+      "palabras_clave_al_reves": "Prudencia",
+      "carta": {
+        "palo": "bastos",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 33,
+      "nombre": "LA ALIANZA",
+      "significado": {
+        "derecho": "Positivo: Unión de pareja (si no hay, la habrá), relación positiva de unión, larga vida. Unión positiva de trabajo. Pareja fértil.",
+        "reves": "Negativo: Finalización o alejamiento (definitivo o no, según cartas) de pareja, sociedad, amistad, laboral etc."
+      },
+      "palabras_clave": "Empresas",
+      "palabras_clave_al_reves": "Penas pasadas",
+      "carta": {
+        "palo": "bastos",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 34,
+      "nombre": "LA INNOVACION",
+      "significado": {
+        "derecho": "Positivo: Aperturas o salidas por cambios internos profundos. Hallazgos afortunados, nuevas empresas, caminos abiertos.",
+        "reves": "Negativo: Bloqueo psicológico que impide encontrar salidas. Confusión, trabas, rutina."
+      },
+      "palabras_clave": "Desgracia",
+      "palabras_clave_al_reves": "Sorpresa",
+      "carta": {
+        "palo": "bastos",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 35,
+      "nombre": "DESCONSUELO",
+      "significado": {
+        "derecho": "Negativo: Tristeza y desconsuelo. Aflicción moral; pérdidas; melancolía; obstáculos; acontecimientos imprevistos desagradables, inquietud, angustia; lágrimas y murmuraciones.",
+        "reves": "Positivo: Nada de lo anterior. Hay familias y personas contentas; no hay pérdidas ni inquietud ni lágrimas, ni calumnias ni habladurías."
+      },
+      "palabras_clave": "Calumnia",
+      "palabras_clave_al_reves": "Nacimiento",
+      "carta": {
+        "palo": "bastos",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 36,
+      "nombre": "LA INICIACION",
+      "significado": {
+        "derecho": "Positivo: Nueva vida. Nacimientos. Comienzo de algo nuevo. Éxito, buena fortuna.",
+        "reves": "Negativo: Trabajos y obstáculos para empezar algo nuevo. No hay nueva vida ni nacimientos. Parto difícil o por cesárea."
+      },
+      "palabras_clave": "Hombre rubio",
+      "palabras_clave_al_reves": "Hombre colocado",
+      "carta": {
+        "palo": "bastos",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 37,
+      "nombre": "ARTE Y CIENCIA",
+      "significado": {
+        "derecho": "Positivo: Carrera o estudios del consultante. Momentos propicios para arte y ciencia. Estudios que finalizan bien. Aptitud para arte o estudios en general.",
+        "reves": "Negativo: Estudios no van bien. No tiene aptitudes. Alejamiento o postergación de actividades relacionadas con arte y ciencia; peligro en exámenes; posibilidad de cortar carrera o abandonarla."
+      },
+      "palabras_clave": "Mujer rubia",
+      "palabras_clave_al_reves": "Mujer colocada",
+      "carta": {
+        "palo": "bastos",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 38,
+      "nombre": "DUPLICIDAD",
+      "significado": {
+        "derecho": "Negativo: Infidelidad, deshonestidad, situaciones dobles (trabajo, estudios, carreras, pasiones sentimentales), deslealtad, decepciones, inestabilidad.",
+        "reves": "Positivo: Fidelidad, lealtad, honestidad, sinceridad; no existen situaciones dobles (sentimental, amistoso, laboral)."
+      },
+      "palabras_clave": "Llegada",
+      "palabras_clave_al_reves": "Engaño",
+      "carta": {
+        "palo": "bastos",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 39,
+      "nombre": "EL TESTIMONIO",
+      "significado": {
+        "derecho": "Positivo: Aproximación, invitaciones, llegadas previstas o imprevistas. Protección espiritual/material. Virtud humana de constatación de la prueba. Deudas se pagan, si nos deben, nos pagan.",
+        "reves": "Negativo: No hay protección espiritual ni material (mala relación con lo religioso). Adulterio presunto o real. Si le deben dinero, no pagan."
+      },
+      "palabras_clave": "Mozo rubio",
+      "palabras_clave_al_reves": "Decadencia",
+      "carta": {
+        "palo": "oros",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 40,
+      "nombre": "EL PRESENTIMIENTO",
+      "significado": {
+        "derecho": "Positivo: Presentimientos positivos (pareja o negocios). Presentimientos que se cumplen. Consultante con intuición desarrollada. Seducción de pareja, atracción. Carta de buena onda.",
+        "reves": "Negativo: No hay intuiciones certeras. Presentimientos negativos. No se da nada de lo que dice la carta al derecho. Amenaza de ruina, afectos contrariados."
+      },
+      "palabras_clave": "Disputa",
+      "palabras_clave_al_reves": "Cólera",
+      "carta": {
+        "palo": "oros",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 41,
+      "nombre": "EL DESASOSIEGO",
+      "significado": {
+        "derecho": "Negativo: Tristezas, desasosiego. Inquietud de ánimo; violencia, penas o lágrimas por pérdidas materiales o emocionales; difamación.",
+        "reves": "Positivo: Nada de lo anterior. Hay familias y personas contentas; no hay pérdidas ni inquietud ni lágrimas, ni calumnias ni habladurías."
+      },
+      "palabras_clave": "Victoria",
+      "palabras_clave_al_reves": "Sinceridad",
+      "carta": {
+        "palo": "oros",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 42,
+      "nombre": "PREEMINENCIA",
+      "significado": {
+        "derecho": "Positivo: Importancia afectiva, económica, material. Equilibrio. Orden jerárquico; poder; triunfos; pompa; situación brillante o elevada (material, intelectual, espiritual, económica, estatus social).",
+        "reves": "Negativo: Carta con desventajas; pérdida de posición social, dinero, cargos, honores. Descenso en cualquier nivel; fracasos económicos y financieros."
+      },
+      "palabras_clave": "Muchacha rubia",
+      "palabras_clave_al_reves": "Satisfacción",
+      "carta": {
+        "palo": "oros",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 43,
+      "nombre": "ALUCINACION",
+      "significado": {
+        "derecho": "POSITIVA. Regocijo de ánimo, expresión de contento, alegrías, satisfacciones, diversiones, fiestas, preparativos placenteros, negocios prósperos.",
+        "reves": "NEGATIVA. Ánimo deprimido, tristeza, desazón, melancolía, angustias, posibilidad de llanto por momentos tristes y cosas que no se logran."
+      },
+      "palabras_clave": "El pensamiento",
+      "palabras_clave_al_reves": "Proyecto",
+      "carta": {
+        "palo": "oros",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 44,
+      "nombre": "EL PENSAMIENTO",
+      "significado": {
+        "derecho": "POSITIVA. Pensamientos positivos, actitudes positivas. Logro de lo que se desea después de arduas luchas; proyectos, remodelaciones; determinaciones; pensamientos estables y firmes, creatividad.",
+        "reves": "NEGATIVA. Pensamientos negativos, inestables, vagos, poco poder de concentración; malos razonamientos o razonamientos negativos; pérdida de creatividad."
+      },
+      "palabras_clave": "El pasado",
+      "palabras_clave_al_reves": "El porvenir",
+      "carta": {
+        "palo": "oros",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 45,
+      "nombre": "REGENERACION",
+      "significado": {
+        "derecho": "POSITIVA. Estabilidad, equilibrio, tratar de mejorar una cosa que anda mal; fuerza para levantarse o afirmarse o estabilizar una situación o a sí mismo. Resurrección espiritual; rejuvenecimiento físico; vigor.",
+        "reves": "NEGATIVA. No hay fuerza para estabilizarse o estabilizar situación alguna; rupturas, abandono, falta de vigor físico y espiritual; inestabilidad."
+      },
+      "palabras_clave": "Herencia",
+      "palabras_clave_al_reves": "Parientes",
+      "carta": {
+        "palo": "oros",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 46,
+      "nombre": "EL PATRIMONIO",
+      "significado": {
+        "derecho": "POSITIVA. Legados por amistad; herencia; donaciones; testamentos; cabe la posibilidad de dos trabajos; dos maneras de ganar buen dinero; dos negocios. Aumento de bienes; ganancias.",
+        "reves": "NEGATIVA. Pérdida o retraso de papeles que tienen que ver con legados o herencias; peligro de perder todo y quedarse sin nada. Que no hay ganancias o que se retardan."
+      },
+      "palabras_clave": "Enojo",
+      "palabras_clave_al_reves": "Novedad",
+      "carta": {
+        "palo": "oros",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 47,
+      "nombre": "CONJETURA",
+      "significado": {
+        "derecho": "POSITIVA. Conjeturas positivas, pero también algunas dudas. Liberación total de acción (interna o externa), pero hay que saber utilizarla, si no, no existe, es un estado de conciencia, libre accionar, nada lo ata.",
+        "reves": "NEGATIVA. Conjeturas negativas. Pensamientos negativos. No hay libertad absoluta ni interna, ni externa, no hay madurez, ni libre accionar; lo que resultará en aflicciones del espíritu."
+      },
+      "palabras_clave": "Éxito",
+      "palabras_clave_al_reves": "Negocios",
+      "carta": {
+        "palo": "oros",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 48,
+      "nombre": "CONSUMACION",
+      "significado": {
+        "derecho": "POSITIVA. Consumación de expectativas amorosas, de una pareja. Puede ser matrimonio. Consumación de expectativas económicas. Como acto de plenitud; la virtud humana del propio convencimiento; el principio de la determinación de la conducta, victoria, se cumple lo que se desea.",
+        "reves": "NEGATIVA. Lo esperado no se cumple; fracaso en el logro de las metas; amores imposibles, planes que fracasan y causan dolor."
+      },
+      "palabras_clave": "Amor",
+      "palabras_clave_al_reves": "Deseo",
+      "carta": {
+        "palo": "oros",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 49,
+      "nombre": "VERSATILIDAD",
+      "significado": {
+        "derecho": "POSITIVA. Mudanzas, cambios; nuevos afectos; bases firmes y estables, base económica, intelectual o afectiva.",
+        "reves": "NEGATIVA. Débil por dentro; la persona no tiene base espiritual, moral, económica ni afectiva; debilidad, vicisitudes, rivalidad en amores. Inestabilidad económica. No hay cambios, ni mudanzas."
+      },
+      "palabras_clave": "Tabla",
+      "palabras_clave_al_reves": "Cambio",
+      "carta": {
+        "palo": "copas",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 50,
+      "nombre": "AFINIDAD",
+      "significado": {
+        "derecho": "POSITIVA. Una amiga, una mujer joven; en general afinidad. Podría representar a la amante del marido o de la pareja.",
+        "reves": "NEGATIVA. Pérdida o alejamiento de una amiga. No está ya la amante (o ha habido una pelea) o es algo superficial."
+      },
+      "palabras_clave": "Hombre de toga",
+      "palabras_clave_al_reves": "Hombre cobarde",
+      "carta": {
+        "palo": "copas",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 51,
+      "nombre": "ASESORAMIENTO",
+      "significado": {
+        "derecho": "NEUTRA. Magistrados, abogados, asesoramientos legales. Persona que trabaja con abogados, ingenieros, arquitectos, contadores, etc.; asuntos judiciales.",
+        "reves": "NEUTRA. Igual que la anterior, pero en la rama de las ciencias humanísticas; médicos, enfermeros, psicólogos, parapsicólogos; buen asesoramiento."
+      },
+      "palabras_clave": "Viudedad",
+      "palabras_clave_al_reves": "Mujer tímida",
+      "carta": {
+        "palo": "copas",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 52,
+      "nombre": "PREMEDITACION",
+      "significado": {
+        "derecho": "POSITIVA. Premeditación positiva. Persona que saca provecho de las experiencias del pasado; malicia; astucia.",
+        "reves": "NEGATIVA. Persona que no saca provecho de las experiencias del pasado; por lo tanto no ha evolucionado; inmadurez; no hay crecimiento interno. No hay premeditación. Si las hay, son negativas."
+      },
+      "palabras_clave": "Militar",
+      "palabras_clave_al_reves": "Ignorancia",
+      "carta": {
+        "palo": "copas",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 53,
+      "nombre": "RESENTIMIENTO",
+      "significado": {
+        "derecho": "NEGATIVA. Ánimo ofendido; la propia defensa; rencor, cólera; imprudencia; ataques; defensas; críticas; persona resentida por cosas del pasado; rencores.",
+        "reves": "POSITIVA. Nada de lo anterior; no hay rencores, ni resentimientos; no hay peleas ni ofensas."
+      },
+      "palabras_clave": "Espía",
+      "palabras_clave_al_reves": "Imprevisión",
+      "carta": {
+        "palo": "copas",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 54,
+      "nombre": "EXAMEN",
+      "significado": {
+        "derecho": "POSITIVA. Exámenes de estudios muy buenos; exámenes clínicos, muy bien; exámenes de conciencia bien.",
+        "reves": "NEGATIVA. Especulaciones; exámenes de estudios que no salen bien; chequeos clínicos que no salen bien, análisis de conciencia, que no salen bien."
+      },
+      "palabras_clave": "Llanto",
+      "palabras_clave_al_reves": "Ventaja",
+      "carta": {
+        "palo": "copas",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 55,
+      "nombre": "CONTRICION",
+      "significado": {
+        "derecho": "NEGATIVA. Como acto de arrepentimiento; reconocer el propio error; sentimientos de culpa; aflicciones del espíritu; dolores morales.",
+        "reves": "POSITIVA. No hay arrepentimientos, ni remordimientos; la persona se siente libre, liberada de culpas y de necesidad de reparaciones."
+      },
+      "palabras_clave": "Órdenes",
+      "palabras_clave_al_reves": "Justa desconfianza",
+      "carta": {
+        "palo": "copas",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 56,
+      "nombre": "PEREGRINAJE",
+      "significado": {
+        "derecho": "POSITIVA. Viajes cortos, persona que se moviliza frecuentemente, viajante, timidez a vencer, celibato, acto de purificación interior.",
+        "reves": "NEUTRA. Postergación de viajes; anulación de viajes. También, según las cartas que la rodeen, puede significar un \"peregrinaje\" o un sufrimiento que termina."
+      },
+      "palabras_clave": "Diversión",
+      "palabras_clave_al_reves": "Diversión",
+      "carta": {
+        "palo": "copas",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 57,
+      "nombre": "RIVALIDAD",
+      "significado": {
+        "derecho": "POSITIVA. Competencia entre oponentes; no hay temores al adversario o rival. Rivalidades positivas.",
+        "reves": "NEGATIVA. Necesidad de aumentar el espíritu de competencia; temor ante el adversario o rival; miedo a la vida."
+      },
+      "palabras_clave": "Esperanza",
+      "palabras_clave_al_reves": "Consejos prudentes",
+      "carta": {
+        "palo": "copas",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 58,
+      "nombre": "RECAPACITACION",
+      "significado": {
+        "derecho": "POSITIVA. Mirar dentro de uno mismo. Persona que recapacita y realiza cambios aparentemente drásticos o bruscos; estos giros son recibidos como bruscos sin que lo sean.",
+        "reves": "NEGATIVA. La persona no recapacita, es impulsiva. A veces hay que hacer estos cambios: no hay que recapacitar; sin cambios bruscos no se produce la modificación que se desea."
+      },
+      "palabras_clave": "Camino",
+      "palabras_clave_al_reves": "Declaración",
+      "carta": {
+        "palo": "copas",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 59,
+      "nombre": "REVELACION",
+      "significado": {
+        "derecho": "NEUTRA. Jóvenes. Búsqueda de propia identidad. Mensajes; mensajeros; noticias; locuacidad; viajes: llamadas; conversación; cartas; comunicación; llega algo que se espera.",
+        "reves": "NEGATIVA. Ausencia o falta de diálogo; no hay noticias ni llamadas ni cartas ni comunicación; retraso en lo que se espera."
+      },
+      "palabras_clave": "Pérdida",
+      "palabras_clave_al_reves": "Duelo",
+      "carta": {
+        "palo": "espadas",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 60,
+      "nombre": "EVOLUCION",
+      "significado": {
+        "derecho": "POSITIVA. Proceso de transformación, despertar de la conciencia; metamorfosis; buena evolución física (salud) o buena evolución en cualquier sentido.",
+        "reves": "NEGATIVA. Problemas de salud, poca o ninguna evolución, descuido personal; reveses de fortuna, dolor."
+      },
+      "palabras_clave": "Soledad",
+      "palabras_clave_al_reves": "Economía",
+      "carta": {
+        "palo": "espadas",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 61,
+      "nombre": "SOLEDAD",
+      "significado": {
+        "derecho": "NEGATIVA. Concentración de ánimo, Soledad, aislamiento.",
+        "reves": "POSITIVA. No hay aislamiento, ni soledad."
+      },
+      "palabras_clave": "Alejamiento",
+      "palabras_clave_al_reves": "Estravíos",
+      "carta": {
+        "palo": "espadas",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 62,
+      "nombre": "PRESCRIPCION",
+      "significado": {
+        "derecho": "NEGATIVA. Persona reprimida o limitada por sí misma o por terceros; fuerzas del orden (podría ser alguien con aptitudes militares o policiales); controversias; represión, exigencias. Representa el rigor.",
+        "reves": "POSITIVA. Libertad de acción, externa e interna; la persona no está reprimida ni limitada y ejerce su libertad; no hay contacto con fuerzas policiales o militares."
+      },
+      "palabras_clave": "Amistad",
+      "palabras_clave_al_reves": "Falsedad",
+      "carta": {
+        "palo": "espadas",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 63,
+      "nombre": "COMUNION",
+      "significado": {
+        "derecho": "POSITIVA. Afectos; ternura; intimidad; afinidad; protección mutua; lucha por ideales comunes (ya sean de pareja o sociedades); unión; buen entendimiento.",
+        "reves": "NEGATIVA. Falta de comunicación: posibilidades de desunión (no hay reconciliación o está postergada); frialdad afectiva (temporaria o definitiva)."
+      },
+      "palabras_clave": "Extremo",
+      "palabras_clave_al_reves": "Embarazo",
+      "carta": {
+        "palo": "espadas",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 64,
+      "nombre": "VEHEMENCIA",
+      "significado": {
+        "derecho": "NEGATIVA. Peleas, discusiones; malos tratos; persona dominante, agresiva y violenta; peligro de agresión física.",
+        "reves": "POSITIVA. No hay nada de lo anterior; ni agresión verbal o física, ni cólera, ni peligros de golpes, ni malos tratos. No existe violencia."
+      },
+      "palabras_clave": "Hombre moreno",
+      "palabras_clave_al_reves": "Hombre vicioso",
+      "carta": {
+        "palo": "espadas",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 65,
+      "nombre": "APRENDIZAJE",
+      "significado": {
+        "derecho": "POSITIVA. Enseñanza y advertencia. Protección de una persona mayor; buena relación entre padres e hijos; relación afectuosa que deja buen saldo o aprendizaje. Buena infancia.",
+        "reves": "NEGATIVA. No hubo en la infancia una relación familiar afectuosa, ni buena; por lo tanto sin enseñanzas, sin afecto, sin consejos, no hay buen saldo de aprendizaje."
+      },
+      "palabras_clave": "Mujer morena",
+      "palabras_clave_al_reves": "Mal seguro",
+      "carta": {
+        "palo": "espadas",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 66,
+      "nombre": "PERPLEJIDAD",
+      "significado": {
+        "derecho": "NEUTRA. Perplejidad, asombro, cosas que surgen sorpresivamente. Acto de indecisión; vacilaciones; sorpresa; seguridad e inseguridad.",
+        "reves": "NEUTRA. No hay indecisión, ni selección de nada; tampoco vacilaciones, ni suspenso. Nada de lo anterior. Tampoco hay asombro, ni sorpresas."
+      },
+      "palabras_clave": "Utilidad",
+      "palabras_clave_al_reves": "Inacción",
+      "carta": {
+        "palo": "espadas",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 67,
+      "nombre": "AMISTAD",
+      "significado": {
+        "derecho": "POSITIVA. Personas amigas; gente que uno quiere mucho o amistades nuevas positivas. El principio de los afectos puros; apoyo de amistades; afectos devotos; lealtad.",
+        "reves": "NEGATIVA. Ausencia o alejamiento de amigos; amiga muy fiel y devota que hace un culto de la amistad, se aleja, está deprimida, enferma o muerta. También (y de acuerdo a la secuencia) amistad negativa."
+      },
+      "palabras_clave": "Mozo moreno",
+      "palabras_clave_al_reves": "Prodigalidad",
+      "carta": {
+        "palo": "espadas",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 68,
+      "nombre": "ESPECULACION",
+      "significado": {
+        "derecho": "POSITIVA. Trabajo inteligente; aprendizaje; abundancia de bienes materiales; cálculo acertado de lo que se emprende; retribuciones por trabajo; dinero que llega.",
+        "reves": "NEGATIVA. Dinero que se retrasa o no se recibe o se pierde; pérdida de bienes materiales; no hay abundancia; pagos injustos por el trabajo que se realiza."
+      },
+      "palabras_clave": "La casa",
+      "palabras_clave_al_reves": "Juegos de azar",
+      "carta": {
+        "palo": "espadas",
+        "valor": "rey"
+      }
+    },
+    {
+      "numero": 69,
+      "nombre": "EL AZAR",
+      "significado": {
+        "derecho": "POSITIVA. Conocimiento trascendental; retribuciones; éxitos; deseos que se cumplen impensadamente; situaciones o hechos de suerte; la persona va a ser ayudada por el destino.",
+        "reves": "NEGATIVA. La persona no va a ser ayudada por el destino. Cosas desagradables. Tres formas de decir lo mismo; es necesario dejar los tiempos; algo debe postergarse para recibir después; dejar que el tiempo cumpla su ciclo."
+      },
+      "palabras_clave": "Efecto",
+      "palabras_clave_al_reves": "Torpeza",
+      "carta": {
+        "palo": "bastos",
+        "valor": "as"
+      }
+    },
+    {
+      "numero": 70,
+      "nombre": "COOPERACION",
+      "significado": {
+        "derecho": "POSITIVA. Acto de colaboración en el esfuerzo; el principio de la reciprocidad; afectos sinceros; buena colaboración de amigos, parejas, socios, familiares.",
+        "reves": "NEGATIVA. Falta de colaboración en el trabajo; no hay trabajo; amigos, socios y/o familiares que no cooperarán ni se interesa por la persona."
+      },
+      "palabras_clave": "Hermosura",
+      "palabras_clave_al_reves": "Usura",
+      "carta": {
+        "palo": "bastos",
+        "valor": "dos"
+      }
+    },
+    {
+      "numero": 71,
+      "nombre": "AVARICIA",
+      "significado": {
+        "derecho": "NEUTRA. Como acto de cálculo interesado. Ansia de poder; principio de prevención, mudanza; reformas dentro de la casa; cambios dentro de la estructura mental, afectiva, etc.",
+        "reves": "NEUTRA. No hay cambios dentro de la estructura mental; afectiva, material, espiritual, etc; no hay mudanza, ni reformas dentro de la casa, ni de pareja etc."
+      },
+      "palabras_clave": "Dinero",
+      "palabras_clave_al_reves": "Inquietud",
+      "carta": {
+        "palo": "bastos",
+        "valor": "tres"
+      }
+    },
+    {
+      "numero": 72,
+      "nombre": "PURIFICACION",
+      "significado": {
+        "derecho": "POSITIVA. Acto depurador; la virtud humana de autopurificarse; noticias buenas; luz que ilumina y calienta; momento de purificación o limpieza; paz espiritual.",
+        "reves": "NEGATIVA. Intranquilidad espiritual; aflicción de espíritu; la mente está cargada y negativa. Hace falta una buena purificación en todos los niveles."
+      },
+      "palabras_clave": "El presente",
+      "palabras_clave_al_reves": "Ambición",
+      "carta": {
+        "palo": "bastos",
+        "valor": "cuatro"
+      }
+    },
+    {
+      "numero": 73,
+      "nombre": "EL AMOR Y EL DESEO",
+      "significado": {
+        "derecho": "POSITIVA. Ilusiones; la pareja o unión definitiva o muy importante; pareja unida en todos los aspectos; mental; espiritual y físico.",
+        "reves": "NEGATIVA. No hay disfrute, ni ilusiones; hay desunión física y/o sentimental (definitiva o no, eso lo determinan las cartas que la rodean)."
+      },
+      "palabras_clave": "Futuro",
+      "palabras_clave_al_reves": "Desorden",
+      "carta": {
+        "palo": "bastos",
+        "valor": "cinco"
+      }
+    },
+    {
+      "numero": 74,
+      "nombre": "LA OFRENDA",
+      "significado": {
+        "derecho": "POSITIVA. Acto propiciatorio. Rendir culto a lo superior; adoración; pasión amorosa; armonía; entrega afectiva; mística; amor reverente.",
+        "reves": "NEGATIVA. No hay amor ni entrega afectiva; no hay cariño; corazón afligido; discordia; amor mal correspondido; amores pasajeros; nada de lo que indica al derecho."
+      },
+      "palabras_clave": "Don",
+      "palabras_clave_al_reves": "Perseverancia",
+      "carta": {
+        "palo": "bastos",
+        "valor": "seis"
+      }
+    },
+    {
+      "numero": 75,
+      "nombre": "GENEROSIDAD",
+      "significado": {
+        "derecho": "POSITIVA. Dádivas; definiciones satisfactorias; a la larga recompensa: herencia sin fallecimientos; fortuna estable; algo que el consultante dará o le darán.",
+        "reves": "NEGATIVA. Poco o nada de lo anterior; no dará lo que se espera de él; no recibirá lo que espera que le den por falta de generosidad."
+      },
+      "palabras_clave": "Nobleza",
+      "palabras_clave_al_reves": "Nobleza",
+      "carta": {
+        "palo": "bastos",
+        "valor": "siete"
+      }
+    },
+    {
+      "numero": 76,
+      "nombre": "EL DISPENSADOR",
+      "significado": {
+        "derecho": "POSITIVA. Misericordia; nobleza; celebridad; generosidad; trabajo abundante y genio para hacerlo útil; persona que recibe beneficios. Recibir cosas de autoridades, de gente con cargo superior.",
+        "reves": "NEGATIVA. Falta de generosidad; no se recibe ni se otorga nada de lo esperado; no hay nobleza ni celebridad. Embarazo; niños que llegan."
+      },
+      "palabras_clave": "Obstáculo",
+      "palabras_clave_al_reves": "Disputas",
+      "carta": {
+        "palo": "bastos",
+        "valor": "sota"
+      }
+    },
+    {
+      "numero": 77,
+      "nombre": "DESORIENTACION",
+      "significado": {
+        "derecho": "NEGATIVA. La virtud humana de reconocer y reflexionar; situaciones embarazosas; obstáculos imprevistos, confusión de ideas, desorientación.",
+        "reves": "POSITIVA. Persona bien orientada; no hay obstáculos ante situaciones difíciles; no hay situaciones embarazosas; se sabe qué camino tomar."
+      },
+      "palabras_clave": "Felicidad",
+      "palabras_clave_al_reves": "Bolsa",
+      "carta": {
+        "palo": "bastos",
+        "valor": "caballero"
+      }
+    },
+    {
+      "numero": 78,
+      "nombre": "RENACIMIENTO",
+      "significado": {
+        "derecho": "POSITIVA. El principio de evolución natural; éxitos; alegría pura; satisfacciones morales y materiales, resurgimiento de situaciones negativas porque recibe amor. Renacimiento, nuevas vidas; evolución en todos los aspectos. Hay futuro.",
+        "reves": "NEGATIVA. No hay evolución, ni alegría ni satisfacción de ninguna índole; tristeza, soledad, depresión; la persona no puede resurgir porque no recibe afectos. Futuro incierto o negativo."
+      },
+      "palabras_clave": "Locura",
+      "palabras_clave_al_reves": "Locura",
+      "carta": {
+        "palo": "bastos",
+        "valor": "rey"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+1.png -> El Mago
+2.png -> La Sacerdotisa
+3.png -> La Emperatriz
+4.png -> El Emperador
+5.png -> El Hierofante
+6.png -> Los Amantes
+7.png -> El Carro
+8.png -> Fuerza
+9.png -> El Ermitano
+10.png -> Rueda De La Fortuna
+11.png -> Justicia
+12.png -> El Colgado
+13.png -> Muerte
+14.png -> Templanza
+15.png -> El Diablo
+16.png -> La Torre
+17.png -> La Estrella
+18.png -> La Luna
+19.png -> El Sol
+20.png -> Juicio
+21.png -> El Mundo
+22.png -> El Loco
+23.png -> As De Copas
+24.png -> Dos De Copas
+25.png -> Tres De Copas
+26.png -> Cuatro De Copas
+27.png -> Cinco De Copas
+28.png -> Seis De Copas
+29.png -> Siete De Copas
+30.png -> Ocho De Copas
+31.png -> Nueve De Copas
+32.png -> Diez De Copas
+33.png -> Sota De Copas
+34.png -> Caballero De Copas
+35.png -> Reina De Copas
+36.png -> Rey De Copas
+37.png -> As De Espadas
+38.png -> Dos De Espadas
+39.png -> Tres De Espadas
+40.png -> Cuatro De Espadas
+41.png -> Cinco De Espadas
+42.png -> Seis De Espadas
+43.png -> Siete De Espadas
+44.png -> Ocho De Espadas
+45.png -> Nueve De Espadas
+46.png -> Diez De Espadas
+47.png -> Sota De Espadas
+48.png -> Caballero De Espadas
+49.png -> Reina De Espadas
+50.png -> Rey De Espadas
+51.png -> As De Oros
+52.png -> Dos De Oros
+53.png -> Tres De Oros
+54.png -> Cuatro De Oros
+55.png -> Cinco De Oros
+56.png -> Seis De Oros
+57.png -> Siete De Oros
+58.png -> Ocho De Oros
+59.png -> Nueve De Oros
+60.png -> Diez De Oros
+61.png -> Sota De Oros
+62.png -> Caballero De Oros
+63.png -> Reina De Oros
+64.png -> Rey De Oros
+65.png -> As De Bastos
+66.png -> Dos De Bastos
+67.png -> Tres De Bastos
+68.png -> Cuatro De Bastos
+69.png -> Cinco De Bastos
+70.png -> Seis De Bastos
+71.png -> Siete De Bastos
+72.png -> Ocho De Bastos
+73.png -> Nueve De Bastos
+74.png -> Diez De Bastos
+75.png -> Sota De Bastos
+76.png -> Caballero De Bastos
+77.png -> Reina De Bastos
+78.png -> Rey De Bastos
