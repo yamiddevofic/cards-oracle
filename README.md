@@ -92,7 +92,6 @@ Los usuarios pueden **filtrar, buscar, girar cartas en 3D** y visualizar sus sig
 ## 🎴 Uso de la App
 
 - Selecciona un **mazo** desde el menú desplegable.  
-- Filtra cartas por **palo** (oros, copas, espadas, bastos).  
 - Busca cartas escribiendo sus números:  
   - Ejemplo: `1, 2i, 3`  
   - (`i` = invertida, `d` = derecha por defecto).  
@@ -137,4 +136,4 @@ public/images/
 
 ## 🧙 Autor
 
-Hecho con 💜 por [Tu Nombre o Usuario]  
+Hecho con 💜 por Yamid Dev | Tech WitchCraft 
