@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import cartasData from '../cartas.json';
-import tarotDescriptions from '../tarot_descriptions.json';
 import riderData from '../rider.json';
 import barajaEspanolaData from '../baraja_espanola_data.json';
 import angelData from '../angel_data.json';
+import symbolonCartasData from '../symbolon_cartas_reducido.json';
 
 // Deck types
 const DECK_TYPES = {
   EGYPTIAN: 'egipcio',
   RIDER_WAITE: 'rider-waite',
   SPANISH: 'baraja-espanola',
-  ANGEL: 'angel'
+  ANGEL: 'angel',
+  FENESTRA: 'fenestra',
+  SYMBOLON: 'symbolon'
 };
 
 // Obtener la URL de la imagen del frente de la carta (baraja española)
@@ -29,10 +31,12 @@ const getCardKeyword = (carta, orientation) => {
 const getBackImageUrl = (number, deckType) => {
   if (deckType === DECK_TYPES.RIDER_WAITE) {
     return `/images/tarot-rider-waite/${number}.png`;
-  } else if (deckType === DECK_TYPES.SPANISH) {
-    return `/images/baraja_espanola/back.jpg`; // Placeholder for Spanish deck back image
   } else if (deckType === DECK_TYPES.ANGEL) {
     return `/images/cartas_angeles/${number}.jpg`;
+  } else if (deckType === DECK_TYPES.FENESTRA) {
+    return `/images/tarot_fenetra/${number}.webp`; // Imagen de carta de Fenestra
+  } else if (deckType === DECK_TYPES.SYMBOLON) {
+    return `/images/symbolon/${number}.jpg`;
   }
   // Default to Egyptian deck
   return `/images/arcana_egipcio_kier/${number}.jpg`;
@@ -43,7 +47,7 @@ const CartasList = () => {
   const [filtroPalo, setFiltroPalo] = useState('todos');
   const [busquedaNumeros, setBusquedaNumeros] = useState('');
   const [flippedCards, setFlippedCards] = useState([]);
-  const [cardsPerRow, setCardsPerRow] = useState(4);
+  const [cardsPerRow, setCardsPerRow] = useState(7);
   const [selectedDeck, setSelectedDeck] = useState(DECK_TYPES.EGYPTIAN);
   const [hoveredCard, setHoveredCard] = useState(null);
 
@@ -124,7 +128,8 @@ const CartasList = () => {
   // Función para obtener cartas según los números ingresados
   const obtenerCartasPorNumero = () => {
     if (!busquedaNumeros.trim()) {
-      return cartas.map(carta => ({ ...carta, orientacion: 'd' }));
+      // Return a single copy of each card with default orientation 'd'
+      return [...cartas].map(carta => ({ ...carta, orientacion: 'd' }));
     }
 
     const entradas = busquedaNumeros
@@ -161,6 +166,9 @@ const CartasList = () => {
     } else if (selectedDeck === DECK_TYPES.ANGEL) {
       const angelCard = angelData.find(card => card.numero === carta.numero);
       return angelCard?.titulo || carta.nombre;
+    } else if (selectedDeck === DECK_TYPES.SYMBOLON) {
+      const symbolonCard = symbolonCartasData.find(card => card.numero === carta.numero);
+      return symbolonCard?.titulo || carta.nombre;
     }
     return carta.nombre; // Fallback
   };
@@ -178,8 +186,12 @@ const CartasList = () => {
       return orientation === 'd' 
         ? angelCard?.significado || 'No hay significado disponible.'
         : angelCard?.invertido || 'No hay significado disponible para esta posición.';
-      }
-      else if (selectedDeck === DECK_TYPES.RIDER_WAITE) {
+    } else if (selectedDeck === DECK_TYPES.SYMBOLON) {
+      const symbolonCard = symbolonCartasData.find(card => card.numero === carta.numero);
+      return orientation === 'd' 
+        ? `${symbolonCard.como_resultado}` || 'No hay significado disponible.'
+        : `${symbolonCard?.como_problema}` || 'No hay significado disponible para esta posición.';
+    } else if (selectedDeck === DECK_TYPES.RIDER_WAITE || selectedDeck === DECK_TYPES.FENESTRA) { // Aplicar lógica Rider-Waite a Fenestra
       // For Rider-Waite deck, use the data from rider.json
       if (riderData && Array.isArray(riderData)) {
         const tarotCard = riderData.find(card => card.numero === carta.numero);
@@ -214,19 +226,33 @@ const CartasList = () => {
     return 'Significado no disponible para esta carta en el mazo seleccionado.';
   };
 
-  // Filtrar por texto y palo
-  const cartasFiltradas = obtenerCartasPorNumero().filter((carta) => {
-    if (!busquedaNumeros.trim()) {
-      carta.orientacion = 'd';
+  const getArchetipe = (carta) => {
+    if (selectedDeck === DECK_TYPES.SYMBOLON) {
+      return symbolonCartasData.find(card => card.numero === carta.numero)?.arquetipo;
     }
-    
-    // Check if carta.carta exists and has palo property
-    const cartaPalo = carta.carta?.palo || '';
-    // Only apply palo filter if deck is Egyptian or Spanish
-    const coincidePalo = (filtroPalo === 'todos') || (cartaPalo === filtroPalo);
-    
-    return coincidePalo;
-  });
+    return '';
+  };
+
+
+  // Filtrar por texto y palo
+  const cartasFiltradas = obtenerCartasPorNumero()
+    .filter((carta, index, self) => {
+      // Remove duplicates by checking if we've seen this card number before
+      const isFirstOccurrence = index === self.findIndex(c => c.numero === carta.numero);
+      return isFirstOccurrence;
+    })
+    .filter((carta) => {
+      if (!busquedaNumeros.trim()) {
+        carta.orientacion = 'd';
+      }
+      
+      // Check if carta.carta exists and has palo property
+      const cartaPalo = carta.carta?.palo || '';
+      // Only apply palo filter if deck is Egyptian or Spanish
+      const coincidePalo = (filtroPalo === 'todos') || (cartaPalo === filtroPalo);
+      
+      return coincidePalo;
+    });
 
   return (
     <div className="min-h-screen bg-hidden bg-hidden">
@@ -236,7 +262,7 @@ const CartasList = () => {
         </h1>
 
         {/* Filtros */}
-        <div className="mb-8 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
+        <div className="relative md:static lg:static top-0 left-0 right-0 z-50 fixed m-5 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div>
               <label className="block mb-2 text-gray-700 dark:text-gray-300 font-medium">Seleccionar mazo:</label>
@@ -253,7 +279,9 @@ const CartasList = () => {
               >
                 <option value={DECK_TYPES.EGYPTIAN}>Tarot Egipcio de Kier</option>
                 <option value={DECK_TYPES.RIDER_WAITE}>Tarot Rider-Waite</option>
+                <option value={DECK_TYPES.FENESTRA}>Tarot Fenestra</option>
                 <option value={DECK_TYPES.ANGEL}>Tarot de los Ángeles</option>
+                <option value={DECK_TYPES.SYMBOLON}>Tarot Symbolon</option>
               </select>
             </div>
             
@@ -288,10 +316,7 @@ const CartasList = () => {
               </select>
             </div>
             
-            
-          </div>
-          
-          <div className="mt-4">
+            <div className="">
             <label className="block mb-2 text-gray-700 dark:text-gray-300 font-medium">Buscar por número (ej: 1, 2i, 3, 4i):</label>
             <input
               type="text"
@@ -301,10 +326,11 @@ const CartasList = () => {
               className="w-full p-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-purple-400 focus:border-transparent"
             />
           </div>
+          </div>
         </div>
 
         {/* Lista de Cartas */}
-        <div className={`grid ${getGridClass()} gap-5 lg:gap-6`}>
+        <div className={`grid ${getGridClass()} gap-5 lg:gap-6 pt-10`}>
           {cartasFiltradas.map((carta, index) => {
             const isFlipped = flippedCards.includes(index);
 
@@ -380,17 +406,20 @@ const CartasList = () => {
                       <img
                         src={getBackImageUrl(carta.numero, selectedDeck)}
                         alt="Reverso de la carta"
-                        className={`w-full h-full ${selectedDeck === DECK_TYPES.RIDER_WAITE || selectedDeck === DECK_TYPES.EGYPTIAN ? 'object-contain' : 'object-cover'} ${carta.orientacion === 'i' ? 'rotate-180' : ''}`}
+                        className={`w-full h-full ${selectedDeck === DECK_TYPES.RIDER_WAITE || selectedDeck === DECK_TYPES.EGYPTIAN || selectedDeck === DECK_TYPES.SYMBOLON || selectedDeck === DECK_TYPES.ANGELIC ? 'object-contain' : 'object-cover'} ${carta.orientacion === 'i' ? 'rotate-180' : ''}`}
                       />
                     </div>
                     
                     {/* Hover overlay for meaning */}
-                    <div className={`absolute inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center transition-opacity duration-300 ${hoveredCard === index && isFlipped ? 'opacity-100' : 'opacity-0'}`}>
+                    <div className={`absolute overflow-auto inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center transition-opacity duration-300 ${hoveredCard === index && isFlipped ? 'opacity-100' : 'opacity-0'}`}>
                       <div className="w-full text-white text-center py-4 px-3">
-                        <h3 className={`font-bold mb-2 ${cardsPerRow >= 5 ? 'text-xs' : 'text-base'}`}>
+                        <h3 className={`font-bold mb-2 ${cardsPerRow >= 5 ? 'text-xs font-bold' : 'text-base'}`}>
                           {getCardTitle(carta)} {carta.orientacion === 'i' ? '(Invertida)' : ''}
                         </h3>
-                        <div className={`text-gray-200 ${cardsPerRow >= 5 ? 'text-[0.6rem]' : 'text-sm'}`}>
+                        {selectedDeck === DECK_TYPES.SYMBOLON && (
+                            <p className="text-gray-200 font-bold text-[.8rem]">{getArchetipe(carta)}</p>
+                        )}
+                        <div className={`mt-2 text-gray-200 ${cardsPerRow >= 5 ? 'text-[0.6rem]' : 'text-sm'}`}>
                           {getCardMeaning(carta, carta.orientacion).split('\n\n').map((paragraph, i) => (
                             <p key={i} className={i > 0 ? 'mt-2' : ''}>
                               {paragraph}
