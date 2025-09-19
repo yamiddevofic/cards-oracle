@@ -4,6 +4,8 @@ import riderData from '../rider.json';
 import barajaEspanolaData from '../baraja_espanola_data.json';
 import angelData from '../angel_data.json';
 import symbolonCartasData from '../symbolon_cartas_reducido.json';
+import CardFilter from './molecules/CardFilter/CardFilter';
+import CardGrid from './molecules/CardGrid/CardGrid';
 
 // Deck types
 const DECK_TYPES = {
@@ -189,8 +191,8 @@ const CartasList = () => {
     } else if (selectedDeck === DECK_TYPES.SYMBOLON) {
       const symbolonCard = symbolonCartasData.find(card => card.numero === carta.numero);
       return orientation === 'd' 
-        ? `${symbolonCard.como_resultado}` || 'No hay significado disponible.'
-        : `${symbolonCard?.como_problema}` || 'No hay significado disponible para esta posición.';
+        ? `Significado clave: ${symbolonCard.significados_clave}\nComo resultado: ${symbolonCard.como_resultado}` || 'No hay significado disponible.'
+        : `Como problema: ${symbolonCard.como_problema}\nComo forma de solucionar problema: ${symbolonCard.como_forma_de_solucionar_problema}` || 'No hay significado disponible para esta posición.';
     } else if (selectedDeck === DECK_TYPES.RIDER_WAITE || selectedDeck === DECK_TYPES.FENESTRA) { // Aplicar lógica Rider-Waite a Fenestra
       // For Rider-Waite deck, use the data from rider.json
       if (riderData && Array.isArray(riderData)) {
@@ -262,177 +264,42 @@ const CartasList = () => {
         </h1>
 
         {/* Filtros */}
-        <div className="relative md:static lg:static top-0 left-0 right-0 z-50 fixed m-5 p-6 bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-100 dark:border-gray-700">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div>
-              <label className="block mb-2 text-gray-700 dark:text-gray-300 font-medium">Seleccionar mazo:</label>
-              <select
-                value={selectedDeck}
-                onChange={(e) => {
-                  setSelectedDeck(e.target.value);
-                  // Reset palo filter if changing to Rider-Waite or Spanish
-                  if (e.target.value === DECK_TYPES.RIDER_WAITE || e.target.value === DECK_TYPES.SPANISH) {
-                    setFiltroPalo('todos');
-                  }
-                }}
-                className="w-full p-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white focus:ring-2 focus:ring-purple-400 focus:border-transparent"
-              >
-                <option value={DECK_TYPES.EGYPTIAN}>Tarot Egipcio de Kier</option>
-                <option value={DECK_TYPES.RIDER_WAITE}>Tarot Rider-Waite</option>
-                <option value={DECK_TYPES.FENESTRA}>Tarot Fenestra</option>
-                <option value={DECK_TYPES.ANGEL}>Tarot de los Ángeles</option>
-                <option value={DECK_TYPES.SYMBOLON}>Tarot Symbolon</option>
-              </select>
-            </div>
-            
-            <div>
-              <label className="block mb-2 text-gray-700 dark:text-gray-300 font-medium">Filtrar por palo:</label>
-              <select
-                value={filtroPalo}
-                onChange={(e) => setFiltroPalo(e.target.value)}
-                className="w-full p-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white focus:ring-2 focus:ring-purple-400 focus:border-transparent"
-              >
-                <option value="todos">Todos los palos</option>
-                <option value="oros">Oros</option>
-                <option value="copas">Copas</option>
-                <option value="espadas">Espadas</option>
-                <option value="bastos">Bastos</option>
-              </select>
-            </div>
-            
-            <div>
-              <label className="block mb-2 text-gray-700 dark:text-gray-300 font-medium">Cartas por fila:</label>
-              <select
-                value={cardsPerRow}
-                onChange={(e) => setCardsPerRow(Number(e.target.value))}
-                className="w-full p-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white focus:ring-2 focus:ring-purple-400 focus:border-transparent"
-              >
-                <option value={3}>3</option>
-                <option value={4}>4</option>
-                <option value={5}>5</option>
-                <option value={6}>6</option>
-                <option value={7}>7</option>
-                <option value={8}>8</option>
-              </select>
-            </div>
-            
-            <div className="">
-            <label className="block mb-2 text-gray-700 dark:text-gray-300 font-medium">Buscar por número (ej: 1, 2i, 3, 4i):</label>
-            <input
-              type="text"
-              value={busquedaNumeros}
-              onChange={(e) => setBusquedaNumeros(e.target.value)}
-              placeholder="Ej: 1, 2i, 3, 4i"
-              className="w-full p-3 rounded-lg border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:ring-2 focus:ring-purple-400 focus:border-transparent"
-            />
-          </div>
-          </div>
-        </div>
+        <CardFilter
+          selectedDeck={selectedDeck}
+          onDeckChange={(newDeck) => {
+            // CardFilter passes event or value depending on usage; normalize here
+            const value = typeof newDeck === 'string' ? newDeck : newDeck?.target?.value;
+            if (!value) return;
+            setSelectedDeck(value);
+            if (value === DECK_TYPES.RIDER_WAITE || value === DECK_TYPES.SPANISH) {
+              setFiltroPalo('todos');
+            }
+          }}
+          filtroPalo={filtroPalo}
+          onPaloChange={(e) => setFiltroPalo(e.target.value)}
+          cardsPerRow={cardsPerRow}
+          onCardsPerRowChange={(val) => setCardsPerRow(Number(val))}
+          busquedaNumeros={busquedaNumeros}
+          onBusquedaNumerosChange={(e) => setBusquedaNumeros(e.target.value)}
+        />
 
         {/* Lista de Cartas */}
-        <div className={`grid ${getGridClass()} gap-5 lg:gap-6 pt-10`}>
-          {cartasFiltradas.map((carta, index) => {
-            const isFlipped = flippedCards.includes(index);
-
-            // Obtener detalles de la carta Rider-Waite si el mazo seleccionado es Rider-Waite
-            let riderCardDetails = null;
-            if (selectedDeck === DECK_TYPES.RIDER_WAITE) {
-              riderCardDetails = riderData.find(card => card.numero === carta.numero);
-            }
-
-            return (
-              <div
-                key={`${carta.numero}-${index}`}
-                className="relative w-full aspect-[2/3] cursor-pointer group"
-                style={{
-                  perspective: '1000px'
-                }}
-                onClick={() => handleCardClick(index)}
-                onMouseEnter={() => setHoveredCard(index)}
-                onMouseLeave={() => setHoveredCard(null)}
-              >
-                <div 
-                  className={`relative w-full h-full transition-transform duration-700 transform-gpu ${isFlipped ? 'rotate-y-180' : ''}`}
-                  style={{
-                    transformStyle: 'preserve-3d'
-                  }}
-                >
-                  {/* Front of Card - Minimalist design */}
-                  <div 
-                    className="absolute w-full h-full backface-hidden rounded-xl shadow-lg overflow-hidden bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300"
-                    style={{ backfaceVisibility: 'hidden' }}
-                  >
-                    <div className="w-full h-full flex items-center justify-center p-1">
-                      <img 
-                        src={getFrontImageUrl(carta.numero, selectedDeck)} 
-                        alt={`Carta ${carta.nombre || 'Sin nombre'}`}
-                        className={`w-full h-full object-contain ${carta.orientacion === 'i' ? 'rotate-180' : ''}`}
-                        onError={(e) => {
-                          e.target.onerror = null;
-                          e.target.src = getBackImageUrl(carta.numero, selectedDeck); // Fallback to back image if front fails
-                        }}
-                      />
-                    </div>
-                    
-                    {/* Hover overlay for keywords */}
-                    <div className={`absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center p-4 transition-opacity duration-300 ${hoveredCard === index && !isFlipped ? 'opacity-100' : 'opacity-0'}`}>
-                      <div className="text-white text-center text-xs font-bold mb-2">
-                        {carta.orientacion === 'i' ? '(Invertida)' : ''}
-                      </div>
-                      <div className={`text-white text-center font-medium ${cardsPerRow >= 5 ? 'text-[0.6rem]' : 'text-sm'}`}>
-                        
-                      </div>
-                      <div className={`text-gray-200 ${cardsPerRow >= 5 ? 'text-[0.6rem]' : 'text-sm'} overflow-auto`}>
-                        <h2 className={`font-bold ${cardsPerRow <= 4 ? 'text-2xl' : 'text-base'}`}>{carta.numero}. {getCardKeyword(carta, carta.orientacion)}</h2>
-                        <p className="italic mb-2">Palabra clave: {carta.spanishKeyword}</p>
-                        {(carta.orientacion === 'd' ? (carta.spanishMeaning || 'No hay significado disponible para Baraja Española') : (carta.spanishMeaningInverted || 'Significado invertido no disponible para Baraja Española')).split('\n\n').map((paragraph, i) => (
-                          <p key={i} className={i > 0 ? 'mt-2' : ''}>
-                            {paragraph}
-                          </p>
-                        ))}
-                      </div>           
-                    </div>
-                  </div>
-
-                  {/* Back of Card - Matching front style */}
-                  <div 
-                    className="absolute w-full h-full backface-hidden rounded-xl shadow-lg overflow-hidden bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all duration-300"
-                    style={{ 
-                      transform: 'rotateY(180deg)',
-                      backfaceVisibility: 'hidden'
-                    }}
-                  >
-                    <div className="w-full h-full flex items-center justify-center p-1">
-                      <img
-                        src={getBackImageUrl(carta.numero, selectedDeck)}
-                        alt="Reverso de la carta"
-                        className={`w-full h-full ${selectedDeck === DECK_TYPES.RIDER_WAITE || selectedDeck === DECK_TYPES.EGYPTIAN || selectedDeck === DECK_TYPES.SYMBOLON || selectedDeck === DECK_TYPES.ANGELIC ? 'object-contain' : 'object-cover'} ${carta.orientacion === 'i' ? 'rotate-180' : ''}`}
-                      />
-                    </div>
-                    
-                    {/* Hover overlay for meaning */}
-                    <div className={`absolute overflow-auto inset-0 bg-black bg-opacity-90 flex flex-col items-center justify-center transition-opacity duration-300 ${hoveredCard === index && isFlipped ? 'opacity-100' : 'opacity-0'}`}>
-                      <div className="w-full text-white text-center py-4 px-3">
-                        <h3 className={`font-bold mb-2 ${cardsPerRow >= 5 ? 'text-xs font-bold' : 'text-base'}`}>
-                          {getCardTitle(carta)} {carta.orientacion === 'i' ? '(Invertida)' : ''}
-                        </h3>
-                        {selectedDeck === DECK_TYPES.SYMBOLON && (
-                            <p className="text-gray-200 font-bold text-[.8rem]">{getArchetipe(carta)}</p>
-                        )}
-                        <div className={`mt-2 text-gray-200 ${cardsPerRow >= 5 ? 'text-[0.6rem]' : 'text-sm'}`}>
-                          {getCardMeaning(carta, carta.orientacion).split('\n\n').map((paragraph, i) => (
-                            <p key={i} className={i > 0 ? 'mt-2' : ''}>
-                              {paragraph}
-                            </p>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+        <div className="pt-10">
+          <CardGrid
+            cards={cartasFiltradas}
+            flippedCards={flippedCards}
+            hoveredCard={hoveredCard}
+            cardsPerRow={cardsPerRow}
+            deckType={selectedDeck}
+            onCardClick={handleCardClick}
+            onCardHover={setHoveredCard}
+            getFrontImageUrl={getFrontImageUrl}
+            getBackImageUrl={getBackImageUrl}
+            getCardKeyword={getCardKeyword}
+            getCardTitle={getCardTitle}
+            getCardMeaning={getCardMeaning}
+            getArchetipe={getArchetipe}
+          />
         </div>
         
         {cartasFiltradas.length === 0 && (
